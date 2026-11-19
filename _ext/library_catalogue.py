@@ -53,6 +53,25 @@ def filter_navigation(app, pagename, templatename, context, doctree):
                     item = link.find_parent('li')
                     if item is not None:
                         item.decompose()
+            # The book TOC contains reading editions only. Workshop navigation
+            # follows the same event registry as the archive, including PDF-only events.
+            workshop_page = 'catalogue/events'
+            for link in tree.select('li.toctree-l1 > a[href]'):
+                if not archive_target(pagename, link['href'], {workshop_page}):
+                    continue
+                children = link.parent.select_one('details > ul')
+                if children is None:
+                    continue
+                children.clear()
+                archive_url = app.builder.get_relative_uri(pagename, workshop_page)
+                workshops = catalogue_data(str(app.srcdir))[2]
+                for event_id, event in workshops.items():
+                    item = tree.new_tag('li', attrs={'class': 'toctree-l2'})
+                    destination = tree.new_tag('a', href=f'{archive_url}#{event_id}',
+                                               attrs={'class': 'reference internal'})
+                    destination.string = event['heading']
+                    item.append(destination)
+                    children.append(item)
             return tree
         context['generate_toctree_html'] = reader_tree
     for direction in ('prev', 'next'):
