@@ -1,0 +1,14 @@
+{% extends "!layout.html" %}
+{% block docs_body %}
+  {% if library_breadcrumbs %}
+  <nav class="library-context" aria-label="Breadcrumb">
+    <ol>
+      {% for item in library_breadcrumbs %}
+      <li>{% if item.href %}<a href="{{ item.href|e }}">{{ item.label|e }}</a>{% else %}<span aria-current="page">{{ item.label|e }}</span>{% endif %}</li>
+      {% endfor %}
+    </ol>
+    {% if library_return %}<a class="library-return" href="{{ library_return.href|e }}">{{ library_return.label|e }}</a>{% endif %}
+  </nav>
+  {% endif %}
+  {{ super() }}
+{% endblock %}

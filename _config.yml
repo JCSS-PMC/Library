@@ -1,0 +1,48 @@
+title: JCSS Library
+author: Joint Committee on Structural Safety
+logo: jcss.png
+latex:
+  latex_documents:
+    targetname: book.tex
+repository:
+  url: https://github.com/JCSS-PMC/Library
+  branch: main
+html:
+  use_edit_page_button: true
+  use_repository_button: true
+  use_issues_button: true
+  extra_navbar: ''
+parse:
+  myst_enable_extensions:
+  - amsmath
+  - dollarmath
+  - colon_fence
+bibtex_bibfiles:
+- references.bib
+execute:
+  execute_notebooks: 'off'
+only_build_toc_files: true
+sphinx:
+  local_extensions:
+    document_contents: _ext
+    source_typesetting: _ext
+    library_catalogue: _ext
+    release_metadata: _ext
+  config:
+    templates_path:
+    - _templates
+    html_static_path:
+    - _static
+    html_css_files:
+    - report-math.css
+    - document-contents.css
+    - source-typesetting.css
+    - library-navigation.css
+    html_js_files:
+    - sidebar-toggle.js
+    - native-contents.js
+    - library-search.js
+    - library-theme.js
+    - release-navigation.js
+    html_baseurl: https://jcss-pmc.github.io/Library/
+copyright: '2026'

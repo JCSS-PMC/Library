@@ -1,0 +1,2073 @@
+[
+  {
+    "id": "work-4c9809e80340",
+    "group": "education",
+    "section": "2012-07 — Robustness of Structures — Ohrid summer course",
+    "section_order": "2012-07",
+    "title": "Robustness of Structures — Ohrid summer course",
+    "date": "2012-07",
+    "authors": "",
+    "document_type": "Course",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "education/jcss-education-2012-07-summer-courses-in-robustness-of-structures.pdf",
+        "label": "Download course information (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/education",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-797babd32daa",
+    "group": "education",
+    "section": "2018-04 — Structural Reliability and JCSS Probabilistic Model Code — Stellenbosch",
+    "section_order": "2018-04",
+    "title": "Structural Reliability and JCSS Probabilistic Model Code — Stellenbosch",
+    "date": "2018-04",
+    "authors": "",
+    "document_type": "Course",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "education/jcss-education-2018-04-sr-course-2018-final.pdf",
+        "label": "Download course information (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/education",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-2c0931277d20",
+    "group": "education",
+    "section": "2018-05 — Systems Risk Modelling and Analysis in Engineering Decision Making — Aalborg",
+    "section_order": "2018-05",
+    "title": "Systems Risk Modelling and Analysis in Engineering Decision Making — Aalborg",
+    "date": "2018-05",
+    "authors": "",
+    "document_type": "Course",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "education/jcss-education-2018-05-phd-course-aau-spring-2018.pdf",
+        "label": "Download course information (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/education",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-d6692aa903bf",
+    "group": "education",
+    "section": "2019-03 — Probabilistic Modelling and Risk Analysis in Engineering — Part 1",
+    "section_order": "2019-03",
+    "title": "Probabilistic Modelling and Risk Analysis in Engineering — Part 1",
+    "date": "2019-03",
+    "authors": "",
+    "document_type": "Course",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "education/jcss-education-2019-03-advanced-school-2019-portugal-part1-rev-a.pdf",
+        "label": "Download course information (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/education",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-cff996ff74bd",
+    "group": "education",
+    "section": "2019-06 — Structural Reliability and Probabilistic Model Code & Risk Informed Decision Making and Decision Analysis — Shanghai",
+    "section_order": "2019-06",
+    "title": "Structural Reliability and Probabilistic Model Code & Risk Informed Decision Making and Decision Analysis — Shanghai",
+    "date": "2019-06",
+    "authors": "",
+    "document_type": "Course",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "education/jcss-education-2019-06-continuing-education-2019-cfp.pdf",
+        "label": "Download announcement (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      },
+      {
+        "file": "education/jcss-education-2019-06-structural-reliability-course-registration-form.docx",
+        "label": "Download registration form (DOCX)",
+        "online_label": "Read online",
+        "secondary": true
+      }
+    ],
+    "page": "catalogue/education",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-c9865babad1d",
+    "group": "education",
+    "section": "2019-11 — Reliability, Probabilistic Design and Risk Analysis of Wind Turbines — Aalborg",
+    "section_order": "2019-11",
+    "title": "Reliability, Probabilistic Design and Risk Analysis of Wind Turbines — Aalborg",
+    "date": "2019-11",
+    "authors": "",
+    "document_type": "Course",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "education/jcss-education-2019-11-phd-course-aalborg-november-2019-final.pdf",
+        "label": "Download course information (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/education",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-2d4a9a3f2754",
+    "group": "education",
+    "section": "2020-05 — Systems Risk Modelling and Analysis in Engineering Decision Making — Aalborg",
+    "section_order": "2020-05",
+    "title": "Systems Risk Modelling and Analysis in Engineering Decision Making — Aalborg",
+    "date": "2020-05",
+    "authors": "",
+    "document_type": "Course",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "education/jcss-education-2020-05-aau-course-spring-2020.pdf",
+        "label": "Download course information (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/education",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-1c847fbea7e1",
+    "group": "education",
+    "section": "2021-07 — Structural Reliability and Probabilistic Model Code & Risk Informed Decision Making and Decision Analysis — Shanghai",
+    "section_order": "2021-07",
+    "title": "Structural Reliability and Probabilistic Model Code & Risk Informed Decision Making and Decision Analysis — Shanghai",
+    "date": "2021-07",
+    "authors": "",
+    "document_type": "Course",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "education/jcss-education-2021-07-structural-reliability-and-risk-informed-decision-making-shanghai-course-schedule.pdf",
+        "label": "Download course information (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/education",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-68311eb3356c",
+    "group": "education",
+    "section": "2022-04 — Reliability, Risk, and Decision Analysis in Built Environment Engineering",
+    "section_order": "2022-04",
+    "title": "Reliability, Risk, and Decision Analysis in Built Environment Engineering",
+    "date": "2022-04",
+    "authors": "",
+    "document_type": "Course",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "education/jcss-education-2022-04-sbu-jcss-course-flyer-v3.pdf",
+        "label": "Download course information (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/education",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-33bf5c070b26",
+    "group": "education",
+    "section": "2022 to 2023 — Risk, resilience and sustainability",
+    "section_order": "2023-02",
+    "title": "General aspects of risk, resilience and sustainability of infrastructure systems",
+    "date": "2022-08-29",
+    "authors": "Michael Havbro Faber",
+    "document_type": "Webinar",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "education/jcss-education-2022-08-faber-presentation-irrs-webinar-english0903.pdf",
+        "label": "Download poster with Zoom and Bilibili details (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      },
+      {
+        "file": "education/jcss-education-2022-08-faber-presentation-irrs-webinar-wh.pdf",
+        "label": "Download poster with Zoom details only (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/webinars-2022-2023",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-2816519851af",
+    "group": "education",
+    "section": "2022 to 2023 — Risk, resilience and sustainability",
+    "section_order": "2023-02",
+    "title": "An overview of regional risk and resilience analysis",
+    "date": "2022-09-26",
+    "authors": "Paolo Gardoni",
+    "document_type": "Webinar",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "education/jcss-education-2022-09-gardoni-jcss-webinar.pdf",
+        "label": "Download poster (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/webinars-2022-2023",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-d8f65ea1fd20",
+    "group": "education",
+    "section": "2022 to 2023 — Risk, resilience and sustainability",
+    "section_order": "2023-02",
+    "title": "Resilience informed integrity management of offshore wind farm systems",
+    "date": "2022-09-15",
+    "authors": "Jianjun Qin",
+    "document_type": "Webinar",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "education/jcss-education-2022-09-qin-presentation-rrsiim-webinar-english-0913.pdf",
+        "label": "Download poster (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/webinars-2022-2023",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-ab525e339277",
+    "group": "education",
+    "section": "2022 to 2023 — Risk, resilience and sustainability",
+    "section_order": "2023-02",
+    "title": "From Science to Practice: What Industry and Owners Need",
+    "date": "2022-09-05",
+    "authors": "Helmut Wenzel",
+    "document_type": "Webinar",
+    "note": "The supplementary List of identified Gaps is separate from the session posters. The date identifies the webinar; the supplementary text has no printed publication date.",
+    "order": 0,
+    "resources": [
+      {
+        "file": "education/jcss-education-2022-09-wenzel-presentation-irrs-webinar-english.pdf",
+        "label": "Download poster — layout A (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      },
+      {
+        "file": "education/jcss-education-2022-09-wenzel-presentation-rrsiim-webinar-english-0903.pdf",
+        "label": "Download poster — layout B (PDF)",
+        "online_label": "Read online",
+        "secondary": true
+      },
+      {
+        "file": "education/jcss-education-2022-09-from-science-to-practice-identified-gaps-supplementary-material.pdf",
+        "label": "Download List of identified Gaps (PDF)",
+        "online_label": "Read supplementary document",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/webinars-2022-2023",
+    "date_kind": "Event date",
+    "supporting": false,
+    "resource_note": "The two posters use different layouts."
+  },
+  {
+    "id": "work-07f7fabea794",
+    "group": "education",
+    "section": "2022 to 2023 — Risk, resilience and sustainability",
+    "section_order": "2023-02",
+    "title": "Robustness and resilience of infrastructure systems subject to earthquakes",
+    "date": "2022-10-17",
+    "authors": "Da-Gang Lu",
+    "document_type": "Webinar",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "education/jcss-education-2022-10-dagang-lu-jcss-webinar.pdf",
+        "label": "Download poster (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/webinars-2022-2023",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-0d375c746c94",
+    "group": "education",
+    "section": "2022 to 2023 — Risk, resilience and sustainability",
+    "section_order": "2023-02",
+    "title": "MH-Shanghai: Urban Multi-Hazard Risk Assessment and Safety Management System",
+    "date": "2022-10-25",
+    "authors": "Jie Li",
+    "document_type": "Webinar",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "education/jcss-education-2022-10-jie-lis-lecture.pdf",
+        "label": "Download poster (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/webinars-2022-2023",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-44602980c31a",
+    "group": "education",
+    "section": "2022 to 2023 — Risk, resilience and sustainability",
+    "section_order": "2023-02",
+    "title": "Resilience and sustainability informed design and management for infrastructure systems",
+    "date": "2022-10-06",
+    "authors": "Min Ouyang",
+    "document_type": "Webinar",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "education/jcss-education-2022-10-min-ouyang-jcss-webinar.pdf",
+        "label": "Download poster (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/webinars-2022-2023",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-13795a884f50",
+    "group": "education",
+    "section": "2022 to 2023 — Risk, resilience and sustainability",
+    "section_order": "2023-02",
+    "title": "Risk-informed approaches for optimizing inspection and maintenance planning of structures and infrastructure systems",
+    "date": "2022-11-15",
+    "authors": "Daniel Straub",
+    "document_type": "Webinar",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "education/jcss-education-2022-11-daniel-straub-lecture.pdf",
+        "label": "Download poster (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/webinars-2022-2023",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-33cc43b525fd",
+    "group": "education",
+    "section": "2022 to 2023 — Risk, resilience and sustainability",
+    "section_order": "2023-02",
+    "title": "Frameworks for risk intelligence and disaster resilience of infrastructure systems",
+    "date": "2022-11-28",
+    "authors": "Junho Song",
+    "document_type": "Webinar",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "education/jcss-education-2022-11-junho-song-jcss-webinar.pdf",
+        "label": "Download poster (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/webinars-2022-2023",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-38b95cf86753",
+    "group": "education",
+    "section": "2022 to 2023 — Risk, resilience and sustainability",
+    "section_order": "2023-02",
+    "title": "A trio spaces perspective of urban resilience",
+    "date": "2022-11-07",
+    "authors": "Nan Li and Dongping Fang",
+    "document_type": "Webinar",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "education/jcss-education-2022-11-nan-li-dongping-fang-jcss-webinar.pdf",
+        "label": "Download poster (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/webinars-2022-2023",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-5a89fcc16e71",
+    "group": "education",
+    "section": "2022 to 2023 — Risk, resilience and sustainability",
+    "section_order": "2023-02",
+    "title": "Robust Dynamical Systems Monitoring: Learning by Modeling",
+    "date": "2022-12-05",
+    "authors": "Eleni Chatzi",
+    "document_type": "Webinar",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "education/jcss-education-2022-12-eleni-chatzi-jcss-webinar.pdf",
+        "label": "Download poster (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/webinars-2022-2023",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-0b65c05bcc66",
+    "group": "education",
+    "section": "2022 to 2023 — Risk, resilience and sustainability",
+    "section_order": "2023-02",
+    "title": "Probabilistic techniques in resilience modeling",
+    "date": "2022-12-15",
+    "authors": "Jürgen Hackl",
+    "document_type": "Webinar",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "education/jcss-education-2022-12-juergen-hackl-jcss-webinar.pdf",
+        "label": "Download poster (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/webinars-2022-2023",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-c4c4c6c54321",
+    "group": "education",
+    "section": "2022 to 2023 — Risk, resilience and sustainability",
+    "section_order": "2023-02",
+    "title": "Decarbonizing infrastructure by extending asset service life using Computer Vision",
+    "date": "2023-01-12",
+    "authors": "Jan Winkler",
+    "document_type": "Webinar",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "education/jcss-education-2023-01-jan-winkler-jcss-webinar.pdf",
+        "label": "Download poster (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/webinars-2022-2023",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-449b4924fd6c",
+    "group": "education",
+    "section": "2022 to 2023 — Risk, resilience and sustainability",
+    "section_order": "2023-02",
+    "title": "Panel discussion: Risk, resilience and sustainability",
+    "date": "2023-02-24",
+    "authors": "",
+    "document_type": "Panel discussion",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "education/jcss-education-2023-02-risk-resilience-and-sustainability-webinar-panel-poster.pdf",
+        "label": "Download panel poster (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      },
+      {
+        "file": "education/jcss-education-2023-02-risk-resilience-and-sustainability-webinar-panel-poster-variant-a089f0bb.pdf",
+        "label": "Download alternate panel poster (PDF)",
+        "online_label": "Read online",
+        "secondary": true
+      }
+    ],
+    "page": "catalogue/webinars-2022-2023",
+    "date_kind": "Event date",
+    "supporting": false,
+    "resource_note": "The alternate poster omits Poland from Jan Winkler’s affiliation. No revision order is established."
+  },
+  {
+    "id": "work-b9484d7a385c",
+    "group": "education",
+    "section": "2024-11 — Structural Reliability and Probabilistic Model Code & Risk Informed Decision Making and Decision Analysis — Changsha",
+    "section_order": "2024-11",
+    "title": "Structural Reliability and Probabilistic Model Code & Risk Informed Decision Making and Decision Analysis — Changsha",
+    "date": "2024-11",
+    "authors": "",
+    "document_type": "Course",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "education/jcss-education-2024-11-structural-reliability-and-risk-informed-decision-making-changsha-course.pdf",
+        "label": "Download course information (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/education",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-dd9dc9898489",
+    "group": "education",
+    "section": "2025-01 — Structural Reliability and Probabilistic Model Code",
+    "section_order": "2025-01",
+    "title": "Structural Reliability and Probabilistic Model Code",
+    "date": "2025-01",
+    "authors": "",
+    "document_type": "Course",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "education/jcss-education-2025-01-course-2025-05102024-1.pdf",
+        "label": "Download course information (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/education",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-9b42f5c0b3a1",
+    "group": "events",
+    "section": "2008-10 — Structural Robustness",
+    "section_order": "2008-10",
+    "title": "Workshop on structural robustness",
+    "date": "2008-10",
+    "authors": "",
+    "document_type": "Event document",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2008-10-workshop-on-structural-robustness.pdf",
+        "label": "Download PDF",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": true
+  },
+  {
+    "id": "work-104fec9c6974",
+    "group": "events",
+    "section": "2012-08 — Life Quality Index Symposium",
+    "section_order": "2012-08",
+    "title": "Life Quality Index Symposium — memorial programme and LQTAI presentation",
+    "date": "2012-08",
+    "authors": "",
+    "document_type": "Programme and presentation",
+    "note": "Combined August 2012 memorial programme and Life Quality Time Allocation Index presentation.",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2012-08-in-memory-of-professor-rudiger-rackwitz-lqi-symposium-programme.pdf",
+        "label": "Download programme and presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-3948c42cdc9c",
+    "group": "events",
+    "section": "2012-08 — Life Quality Index Symposium",
+    "section_order": "2012-08",
+    "title": "Origin and Development of the LQI",
+    "date": "2012-08",
+    "authors": "Niels Lind and Jatin Nathwani",
+    "document_type": "Symposium paper",
+    "note": "August 2012 symposium contribution. The source uses differing function labels and repeated normalisation labels; its bibliography does not cover every citation in the text.",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2012-08-origin-and-development-of-the-lqi.pdf",
+        "label": "Download paper (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-a09fdee7433a",
+    "group": "notices",
+    "section": "2018",
+    "section_order": "2018-08",
+    "title": "Greenhouse Gas Emissions – Structural Design Codes Overlooked",
+    "date": "2018-08",
+    "authors": "",
+    "document_type": "Press release",
+    "note": "August 2018 press release. Its percentages, policy statements, and deadlines reflect the document at that date.",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2018-08-greenhouse-gas-emissions-structural-design-codes-overlooked.pdf",
+        "label": "Download PDF",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "organisation": "Joint Committee on Structural Safety",
+    "page": "catalogue/notices",
+    "date_kind": "Document date",
+    "supporting": false
+  },
+  {
+    "id": "work-9ab554b05a6f",
+    "group": "events",
+    "section": "2019-01 — Methods for Structural Reliability Analysis",
+    "section_order": "2019-01",
+    "title": "Methods for Structural Reliability Analysis — workshop announcement",
+    "date": "2019-01",
+    "authors": "",
+    "document_type": "Announcement",
+    "note": "",
+    "order": -1,
+    "resources": [
+      {
+        "file": "events/jcss-events-2019-01-meeting-and-workshop-on-advanced-probabilistic-analysis-methods.pdf",
+        "label": "Download announcement (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": true
+  },
+  {
+    "id": "work-6b9e714ead99",
+    "group": "events",
+    "section": "2020-01 — Ship Collision Risk Assessment",
+    "section_order": "2020-01",
+    "title": "JCSS Workshop on Ship Collision Risk Assessment",
+    "date": "2020-01",
+    "authors": "",
+    "document_type": "Workshop conclusions",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2020-01-ship-collision-risk-workshop-conclusions-1-0.pdf",
+        "label": "Download conclusions (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-2acdff4ba160",
+    "group": "events",
+    "section": "2020-06 — Risk Acceptance Criteria — announced 2020 workshop",
+    "section_order": "2020-06",
+    "title": "Risk Acceptance Criteria — 2020 workshop announcement",
+    "date": "2020-06",
+    "authors": "",
+    "document_type": "Announcement",
+    "note": "Announcement for the proposed 2020 workshop. Retained separately from the 2021 announcement and June 2023 workshop material.",
+    "order": -1,
+    "resources": [
+      {
+        "file": "events/jcss-events-2020-06-draft-announcement-risk-acceptance-workshop-v2.pdf",
+        "label": "Download announcement (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": true
+  },
+  {
+    "id": "work-0d1ad2ba7436",
+    "group": "events",
+    "section": "2021-01 — Assessment of Existing Structures",
+    "section_order": "2021-01",
+    "title": "A Showcase of a Reliability-Based Approach to an Existing Offshore Steel Structure",
+    "date": "2021-01",
+    "authors": "Matthias Schubert",
+    "document_type": "Presentation",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2021-01-a-showcase-of-a-reliability-based-approach-to-an-existing-offshore-steel-structure.pdf",
+        "label": "Download presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-16a99c0cacd5",
+    "group": "events",
+    "section": "2021-01 — Assessment of Existing Structures",
+    "section_order": "2021-01",
+    "title": "Assessment of Bridges Based on Updated Information and Monitoring, Croatian Perspectives",
+    "date": "2021-01",
+    "authors": "Ana Mandić Ivanković",
+    "document_type": "Presentation",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2021-01-assessment-of-bridges-based-on-updated-information-and-monitoring-croatian-perspectives.pdf",
+        "label": "Download presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-f6781fdbf7c4",
+    "group": "events",
+    "section": "2021-01 — Assessment of Existing Structures",
+    "section_order": "2021-01",
+    "title": "Assessment of Existing Structures — programme and announcement",
+    "date": "2021-01",
+    "authors": "",
+    "document_type": "Workshop information",
+    "note": "",
+    "order": -1,
+    "resources": [
+      {
+        "file": "events/jcss-events-2021-01-assessment-of-existing-structures-workshop-programme.pdf",
+        "label": "Download programme (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      },
+      {
+        "file": "events/jcss-events-2021-01-workshop-on-existing-structures-save-the-date.pdf",
+        "label": "Download save-the-date announcement (PDF)",
+        "online_label": "Read online",
+        "secondary": true
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": true
+  },
+  {
+    "id": "work-787fc6a53bed",
+    "group": "events",
+    "section": "2021-01 — Assessment of Existing Structures",
+    "section_order": "2021-01",
+    "title": "Capacity Upgrade of Existing Bridges by Probabilistic Methods",
+    "date": "2021-01",
+    "authors": "Joan Hee Roldsgaard",
+    "document_type": "Presentation",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2021-01-capacity-upgrade-of-existing-bridges-by-probabilistic-methods.pdf",
+        "label": "Download presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-b7a9de715ad7",
+    "group": "events",
+    "section": "2021-01 — Assessment of Existing Structures",
+    "section_order": "2021-01",
+    "title": "Characteristic concrete strength of existing structures according to EN 13791",
+    "date": "2021-01",
+    "authors": "Christian Glock and Rabea Sefrin",
+    "document_type": "Presentation",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2021-01-characteristic-concrete-strength-of-existing-structures-according-to-en-13791.pdf",
+        "label": "Download presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-681bb1a57683",
+    "group": "events",
+    "section": "2021-01 — Assessment of Existing Structures",
+    "section_order": "2021-01",
+    "title": "Assessment of Existing Structures — opening address",
+    "date": "2021-01",
+    "authors": "Steve Denton",
+    "document_type": "Presentation",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2021-01-denton-opening-speech-existing-structures-workshop.pdf",
+        "label": "Download presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-3e42fe0636b3",
+    "group": "events",
+    "section": "2021-01 — Assessment of Existing Structures",
+    "section_order": "2021-01",
+    "title": "Perspectives on Reassessment of Structures and Regulation",
+    "date": "2021-01",
+    "authors": "Michael Havbro Faber",
+    "document_type": "Presentation",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2021-01-faber-welcome-address-existing-structures-workshop.pdf",
+        "label": "Download presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-9bce338c5095",
+    "group": "events",
+    "section": "2021-01 — Assessment of Existing Structures",
+    "section_order": "2021-01",
+    "title": "fib TG 3.1 Developments Concerning Semi-Probabilistic Format",
+    "date": "2021-01",
+    "authors": "M. Sykora and D. Diamantidis",
+    "document_type": "Presentation",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2021-01-fib-tg-3-1-developments-concerning-semi-probabilistic-format.pdf",
+        "label": "Download presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-53c321ed30c9",
+    "group": "events",
+    "section": "2021-01 — Assessment of Existing Structures",
+    "section_order": "2021-01",
+    "title": "Lessons learnt assessing structures in the last 30 years",
+    "date": "2021-01",
+    "authors": "Aurelio Muttoni",
+    "document_type": "Presentation",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2021-01-lessons-learnt-assessing-structures-in-the-last-30-years.pdf",
+        "label": "Download presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-7061a9802130",
+    "group": "events",
+    "section": "2021-01 — Assessment of Existing Structures",
+    "section_order": "2021-01",
+    "title": "Monitoring bridges using bridge weigh-in-motion technology",
+    "date": "2021-01",
+    "authors": "Aleš Žnidarič",
+    "document_type": "Presentation",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2021-01-monitoring-bridges-using-bridge-weigh-in-motion-technology.pdf",
+        "label": "Download presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-4f2bb8c15842",
+    "group": "events",
+    "section": "2021-01 — Assessment of Existing Structures",
+    "section_order": "2021-01",
+    "title": "Novel Techniques Regarding the Assessment and Monitoring of Structures",
+    "date": "2021-01",
+    "authors": "Alfred Strauss",
+    "document_type": "Presentation",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2021-01-novel-techniques-regarding-the-assessment-and-monitoring-of-structures.pdf",
+        "label": "Download presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-aa7830398c0c",
+    "group": "events",
+    "section": "2021-01 — Assessment of Existing Structures",
+    "section_order": "2021-01",
+    "title": "Potential and Challenges of the Design Value Approach",
+    "date": "2021-01",
+    "authors": "Jochen Köhler and John Dalsgaard Sørensen",
+    "document_type": "Presentation",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2021-01-potential-and-challenges-of-the-design-value-approach.pdf",
+        "label": "Download presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-7862d2fc346b",
+    "group": "events",
+    "section": "2021-01 — Assessment of Existing Structures",
+    "section_order": "2021-01",
+    "title": "Probabilistic Principles Applied in fib Model Code 2020",
+    "date": "2021-01",
+    "authors": "Agnieszka Bigaj-van Vliet",
+    "document_type": "Presentation",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2021-01-probabilistic-principles-applied-in-fib-model-code-2020.pdf",
+        "label": "Download presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-59d6e23c2ab8",
+    "group": "events",
+    "section": "2021-01 — Assessment of Existing Structures",
+    "section_order": "2021-01",
+    "title": "Rehabilitation and seismic upgrading of the Villafranca bridge",
+    "date": "2021-01",
+    "authors": "Pietro Croce",
+    "document_type": "Presentation",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2021-01-rehabilitation-and-seismic-upgrading-of-the-villafranca-bridge.pdf",
+        "label": "Download presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-4aabce3a3dee",
+    "group": "events",
+    "section": "2021-01 — Assessment of Existing Structures",
+    "section_order": "2021-01",
+    "title": "Second Generation of Eurocode 8 Part 3 on Seismic Assessment and Retrofit of Existing Structures",
+    "date": "2021-01",
+    "authors": "Paolo Franchin",
+    "document_type": "Presentation",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2021-01-second-generation-of-eurocode-8-part-3-on-seismic-assessment-and-retrofit-of-existing-structures.pdf",
+        "label": "Download presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-a1ef859fd0ff",
+    "group": "events",
+    "section": "2021-01 — Assessment of Existing Structures",
+    "section_order": "2021-01",
+    "title": "Semi-Probabilistic Format for the Assessment of Existing Bridges: Concepts and Challenges",
+    "date": "2021-01",
+    "authors": "André Orcesi",
+    "document_type": "Presentation",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2021-01-semi-probabilistic-format-for-the-assessment-of-existing-bridges-concepts-and-challenges.pdf",
+        "label": "Download presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-64befe2f6158",
+    "group": "events",
+    "section": "2021-01 — Assessment of Existing Structures",
+    "section_order": "2021-01",
+    "title": "Some experiences with proof loading of bridges",
+    "date": "2021-01",
+    "authors": "Svend Engelund",
+    "document_type": "Presentation",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2021-01-some-experiences-with-proof-loading-of-bridges.pdf",
+        "label": "Download presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-4e69c5329a7c",
+    "group": "events",
+    "section": "2021-01 — Assessment of Existing Structures",
+    "section_order": "2021-01",
+    "title": "Standardisation for Assessment of Existing Structures – Evolution from Technical Specification to Eurocode",
+    "date": "2021-01",
+    "authors": "Thomas P. Lang",
+    "document_type": "Presentation",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2021-01-standardisation-for-assessment-of-existing-structures-evolution-from-technical-specification-to-eurocode.pdf",
+        "label": "Download presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-b328ed31238d",
+    "group": "events",
+    "section": "2021-01 — Assessment of Existing Structures",
+    "section_order": "2021-01",
+    "title": "Standardisation for Assessment of Existing Structures in the USA",
+    "date": "2021-01",
+    "authors": "James Robert Harris and Bruce R. Ellingwood",
+    "document_type": "Presentation",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2021-01-standardisation-for-assessment-of-existing-structures-in-the-usa.pdf",
+        "label": "Download presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-a85a24e86786",
+    "group": "events",
+    "section": "2021-01 — Assessment of Existing Structures",
+    "section_order": "2021-01",
+    "title": "Standardisation for Assessment of Existing Structures",
+    "date": "2021-01",
+    "authors": "Paul Lüchinger",
+    "document_type": "Presentation",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2021-01-standardisation-for-assessment-of-existing-structures.pdf",
+        "label": "Download presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-72b31925fdfe",
+    "group": "events",
+    "section": "2021-01 — Assessment of Existing Structures",
+    "section_order": "2021-01",
+    "title": "Thinking About Hidden Safety When Assessing Existing Structures",
+    "date": "2021-01",
+    "authors": "Daniel Straub and Max Teichgräber",
+    "document_type": "Presentation",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2021-01-thinking-about-hidden-safety-when-assessing-existing-structures.pdf",
+        "label": "Download presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-10fed778e720",
+    "group": "events",
+    "section": "2021-01 — Assessment of Existing Structures",
+    "section_order": "2021-01",
+    "title": "Updating and Monitoring of Signature Structures",
+    "date": "2021-01",
+    "authors": "Helmut Wenzel",
+    "document_type": "Presentation",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2021-01-updating-and-monitoring-of-signature-structures.pdf",
+        "label": "Download presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-4b6f67a344b4",
+    "group": "events",
+    "section": "2021-01 — Assessment of Existing Structures",
+    "section_order": "2021-01",
+    "title": "What Makes the Value of Information?",
+    "date": "2021-01",
+    "authors": "Sebastian Thöns",
+    "document_type": "Presentation",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2021-01-what-makes-the-value-of-information.pdf",
+        "label": "Download presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-d8805ad46bf7",
+    "group": "events",
+    "section": "2021-05 — Risk Acceptance Criteria — announced 2021 workshop",
+    "section_order": "2021-05",
+    "title": "Risk Acceptance Criteria — 2021 workshop announcement",
+    "date": "2021-05",
+    "authors": "",
+    "document_type": "Announcement",
+    "note": "Announcement for the proposed 2021 workshop. Retained separately from the 2020 announcement and June 2023 workshop material.",
+    "order": -1,
+    "resources": [
+      {
+        "file": "events/jcss-events-2021-05-announcement-risk-acceptance-workshop-2021-2.pdf",
+        "label": "Download announcement (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": true
+  },
+  {
+    "id": "work-898c6299a8fc",
+    "group": "events",
+    "section": "2023-06 — Risk Acceptance Criteria — Trondheim",
+    "section_order": "2023-06",
+    "title": "Risk Acceptance Criteria — workshop information",
+    "date": "2023-06",
+    "authors": "",
+    "document_type": "Workshop information",
+    "note": "",
+    "order": -1,
+    "resources": [
+      {
+        "file": "events/jcss-events-2023-06-announcement-risk-acceptance-workshop-2023-4.pdf",
+        "label": "Download announcement — 2 pages (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      },
+      {
+        "file": "events/jcss-events-2023-06-workshop-announcement-jcss-iabse.pdf",
+        "label": "Download announcement and invitation — 5 pages (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": true
+  },
+  {
+    "id": "work-a05c5f544073",
+    "group": "events",
+    "section": "2023-06 — Risk Acceptance Criteria — Trondheim",
+    "section_order": "2023-06",
+    "title": "The regulation of the future without risk acceptance criteria?",
+    "date": "2023-06",
+    "authors": "Gerhard Ersdal",
+    "document_type": "Presentation",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2023-06-ersdal-regulation-without-risk-acceptance-criteria-slides.pdf",
+        "label": "Download presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-1bda173b214c",
+    "group": "events",
+    "section": "2023-06 — Risk Acceptance Criteria — Trondheim",
+    "section_order": "2023-06",
+    "title": "Formal Criteria Derived from Bayesian Decision Analysis",
+    "date": "2023-06",
+    "authors": "Michael Havbro Faber",
+    "document_type": "Presentation",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2023-06-faber-formal-criteria-derived-from-bayesian-decision-analysis-slides.pdf",
+        "label": "Download presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-9a7afef32092",
+    "group": "events",
+    "section": "2023-06 — Risk Acceptance Criteria — Trondheim",
+    "section_order": "2023-06",
+    "title": "Safety regulation in the oil and gas industry",
+    "date": "2023-06",
+    "authors": "Bjørnar Heide",
+    "document_type": "Presentation",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2023-06-heide-safety-regulation-in-the-oil-and-gas-industry-slides.pdf",
+        "label": "Download presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-a48497624557",
+    "group": "events",
+    "section": "2023-06 — Risk Acceptance Criteria — Trondheim",
+    "section_order": "2023-06",
+    "title": "F-N Criterion lines",
+    "date": "2023-06",
+    "authors": "Niels Peter Høj",
+    "document_type": "Presentation",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2023-06-hoj-fn-criterion-lines-slides.pdf",
+        "label": "Download presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-d550b5a18d5d",
+    "group": "events",
+    "section": "2023-06 — Risk Acceptance Criteria — Trondheim",
+    "section_order": "2023-06",
+    "title": "Risk-based decision-making in tunnel safety",
+    "date": "2023-06",
+    "authors": "Bernhard Kohl",
+    "document_type": "Extended abstract",
+    "note": "Extended abstract from the June 2023 workshop. The associated presentation is not included in this edition.",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2023-06-kohl-risk-based-decision-making-in-tunnel-safety-extended-abstract.pdf",
+        "label": "Download abstract (PDF)",
+        "online_label": "Read abstract",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-ca52f31f49cc",
+    "group": "events",
+    "section": "2023-06 — Risk Acceptance Criteria — Trondheim",
+    "section_order": "2023-06",
+    "title": "Introduction to Risk Acceptance Criteria",
+    "date": "2023-06",
+    "authors": "Jochen Köhler and Niels Peter Høj",
+    "document_type": "Presentation",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2023-06-kohler-and-hoj-introduction-to-risk-acceptance-criteria-slides.pdf",
+        "label": "Download presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-56d16b78e7bb",
+    "group": "events",
+    "section": "2023-06 — Risk Acceptance Criteria — Trondheim",
+    "section_order": "2023-06",
+    "title": "Perspective from a building authority",
+    "date": "2023-06",
+    "authors": "Oskar Larsson Ivanov",
+    "document_type": "Presentation",
+    "note": "June 2023 presentation. Reliability values retain their printed labels; the library has not inferred a reference period.",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2023-06-larsson-ivanov-perspective-from-a-building-authority-slides.pdf",
+        "label": "Download presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-951220c353d8",
+    "group": "events",
+    "section": "2023-06 — Risk Acceptance Criteria — Trondheim",
+    "section_order": "2023-06",
+    "title": "Risk acceptance criteria for bridges",
+    "date": "2023-06",
+    "authors": "Albrecht Lentz",
+    "document_type": "Presentation",
+    "note": "June 2023 presentation. The Great Belt criteria on slide 7 have no printed time denominator; no reference period has been added.",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2023-06-lentz-risk-acceptance-criteria-for-bridges-slides.pdf",
+        "label": "Download presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-5fb80b6f17c6",
+    "group": "events",
+    "section": "2023-06 — Risk Acceptance Criteria — Trondheim",
+    "section_order": "2023-06",
+    "title": "Practical implementation of criteria in the oil and gas industry – Unmanning criteria for extreme storm events",
+    "date": "2023-06",
+    "authors": "Gunnar Lian",
+    "document_type": "Presentation",
+    "note": "",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2023-06-lian-unmanning-criteria-for-extreme-storm-events-slides.pdf",
+        "label": "Download presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-36a1945806d4",
+    "group": "events",
+    "section": "2023-06 — Risk Acceptance Criteria — Trondheim",
+    "section_order": "2023-06",
+    "title": "Risk analysis and acceptance for floating bridges, with emphasis on ship impact hazards",
+    "date": "2023-06",
+    "authors": "Torgeir Moan",
+    "document_type": "Extended abstract",
+    "note": "Extended abstract from the June 2023 workshop. The associated presentation is not included in this edition.",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2023-06-moan-risk-analysis-and-acceptance-for-floating-bridges-extended-abstract.pdf",
+        "label": "Download abstract (PDF)",
+        "online_label": "Read abstract",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-2c484c897610",
+    "group": "events",
+    "section": "2023-06 — Risk Acceptance Criteria — Trondheim",
+    "section_order": "2023-06",
+    "title": "Safety Targets for Probabilistic Safety Analysis for Swiss Nuclear Power Plants",
+    "date": "2023-06",
+    "authors": "Dirk Proske",
+    "document_type": "Presentation",
+    "note": "The original presentation contains obscured table content on slide 10, overlapping content on slide 19, and a clipped 1981 row on slide 25.",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2023-06-proske-safety-targets-for-swiss-nuclear-power-plants-slides.pdf",
+        "label": "Download presentation (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-2603115ecf9b",
+    "group": "events",
+    "section": "2023-06 — Risk Acceptance Criteria — Trondheim",
+    "section_order": "2023-06",
+    "title": "Risk Acceptance Criteria — group discussion results",
+    "date": "2023-06",
+    "authors": "",
+    "document_type": "Discussion results (slides)",
+    "note": "Results of the June 2023 workshop group discussions. These slides record the discussion contributions.",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2023-06-risk-acceptance-workshop-group-discussion-results.pdf",
+        "label": "Download PDF",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-a7b9af733e21",
+    "group": "events",
+    "section": "2023-06 — Risk Acceptance Criteria — Trondheim",
+    "section_order": "2023-06",
+    "title": "Engineering methods and practical examples … and beyond",
+    "date": "2023-06",
+    "authors": "Matthias Schubert",
+    "document_type": "Extended abstract",
+    "note": "Extended abstract from the June 2023 workshop. The associated presentation is not included in this edition.",
+    "order": 0,
+    "resources": [
+      {
+        "file": "events/jcss-events-2023-06-schubert-engineering-methods-and-practical-examples-extended-abstract.pdf",
+        "label": "Download abstract (PDF)",
+        "online_label": "Read abstract",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": false
+  },
+  {
+    "id": "work-c46a00d0ace8",
+    "group": "events",
+    "section": "2024-05 — JCSS meeting and anniversary workshop — Prague",
+    "section_order": "2024-05",
+    "title": "Structural Safety: Past Advancements and Future Challenges — workshop information",
+    "date": "2024-05",
+    "authors": "",
+    "document_type": "Workshop information",
+    "note": "",
+    "order": -1,
+    "resources": [
+      {
+        "file": "events/jcss-events-2024-05-workshop-prague-may-2024v2.pdf",
+        "label": "Download preliminary programme (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      },
+      {
+        "file": "events/jcss-events-2024-05-announcement-prague-2.pdf",
+        "label": "Download announcement — registration deadline 28 February (PDF)",
+        "online_label": "Read online",
+        "secondary": true
+      },
+      {
+        "file": "events/jcss-events-2024-05-announcement-prague.pdf",
+        "label": "Download announcement — registration deadline 31 January (PDF)",
+        "online_label": "Read online",
+        "secondary": true
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": true
+  },
+  {
+    "id": "work-57f58e532122",
+    "group": "events",
+    "section": "2024-12 — Time-variant Reliability Analysis — Munich",
+    "section_order": "2024-12",
+    "title": "Time-variant Reliability Analysis: Old Challenges and New Solutions — invitation and preliminary programme",
+    "date": "2024-12",
+    "authors": "",
+    "document_type": "Preliminary programme",
+    "note": "",
+    "order": -1,
+    "resources": [
+      {
+        "file": "events/jcss-events-2024-12-workshop-timevariant.pdf",
+        "label": "Download preliminary programme (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": true
+  },
+  {
+    "id": "work-e367d5b97aee",
+    "group": "events",
+    "section": "2025-05 — Managing Structural Safety — London",
+    "section_order": "2025-05",
+    "title": "Managing Structural Safety — invitation and preliminary programme",
+    "date": "2025-05",
+    "authors": "",
+    "document_type": "Preliminary programme",
+    "note": "",
+    "order": -1,
+    "resources": [
+      {
+        "file": "events/jcss-events-2025-05-workshop-london.pdf",
+        "label": "Download preliminary programme (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": true
+  },
+  {
+    "id": "work-2efa3bd7c605",
+    "group": "events",
+    "section": "2025-06 — Uncertain Climate Futures — Copenhagen",
+    "section_order": "2025-06",
+    "title": "Uncertain Climate Futures — workshop information",
+    "date": "2025-06",
+    "authors": "",
+    "document_type": "Workshop information",
+    "note": "",
+    "order": -1,
+    "resources": [
+      {
+        "file": "events/jcss-events-2025-06-infrastructure-systems-climate-change-fri-jcssfinal-announcement.pdf",
+        "label": "Download final announcement (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      },
+      {
+        "file": "events/jcss-events-2025-06-infrastructure-systems-climate-change-fri-jcss-2nd-announcement-draft-march-24.pdf",
+        "label": "Download second announcement (PDF)",
+        "online_label": "Read online",
+        "secondary": true
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": true
+  },
+  {
+    "id": "work-ef986a806e44",
+    "group": "events",
+    "section": "2025-10 — Global Reliability of Structures & Code Calibration — Tongji",
+    "section_order": "2025-10",
+    "title": "Global Reliability of Structures & Code Calibration — workshop announcement",
+    "date": "2025-10",
+    "authors": "",
+    "document_type": "Announcement",
+    "note": "",
+    "order": -1,
+    "resources": [
+      {
+        "file": "events/jcss-events-2025-10-tongji-workshop-announcement.pdf",
+        "label": "Download announcement (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": true
+  },
+  {
+    "id": "work-a74473fda513",
+    "group": "events",
+    "section": "2026-04 — JCSS meeting and Assessment of Existing Structures — Aalborg",
+    "section_order": "2026-04",
+    "title": "Assessment of Existing Structures — draft programme",
+    "date": "2026-04",
+    "authors": "",
+    "document_type": "Draft programme",
+    "note": "",
+    "order": -1,
+    "resources": [
+      {
+        "file": "events/jcss-events-2026-04-workshop-on-assessment-of-existing-structures.pdf",
+        "label": "Download draft programme (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": true
+  },
+  {
+    "id": "work-c6b6012c1cea",
+    "group": "events",
+    "section": "2026-10 — JCSS meeting and Societal Preferences on Risk Acceptance — Waterloo",
+    "section_order": "2026-10",
+    "title": "Societal Preferences on Risk Acceptance — preliminary programme",
+    "date": "2026-10",
+    "authors": "",
+    "document_type": "Preliminary programme",
+    "note": "",
+    "order": -1,
+    "resources": [
+      {
+        "file": "events/jcss-events-2026-10-societal-preferences-on-risk-acceptance-workshop-preliminary-programme.pdf",
+        "label": "Download preliminary programme (PDF)",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "page": "catalogue/events",
+    "date_kind": "Event date",
+    "supporting": true
+  },
+  {
+    "id": "work-2035329c4e99",
+    "group": "notices",
+    "section": "2001",
+    "section_order": "2001",
+    "title": "Probabilistic assessment of existing structures publication information",
+    "date": "2001",
+    "authors": "",
+    "document_type": "Publication notice",
+    "note": "Publication information for the 2001 book. The download contains the notice, not the book text.",
+    "order": 0,
+    "resources": [
+      {
+        "file": "publications/jcss-publications-2001-probabilistic-assessment-of-existing-structures-publication-information.rtf",
+        "label": "Download RTF",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "organisation": "Joint Committee on Structural Safety",
+    "page": "catalogue/notices",
+    "date_kind": "Document date",
+    "supporting": false
+  },
+  {
+    "id": "work-1a367abd5baf",
+    "group": "reports",
+    "section": "Risk assessment",
+    "section_order": "2008-06",
+    "title": "Risk Assessment in Engineering: Principles, System Representation & Risk Criteria",
+    "date": "2008-06",
+    "authors": "Joint Committee on Structural Safety",
+    "document_type": "Report",
+    "note": "June 2008 edition. Source notation in equation (22), the captions of Figures 10 and 11, and the stated number of decision levels are retained as printed.",
+    "order": 0,
+    "resources": [
+      {
+        "file": "publications/jcss-publications-2008-06-risk-assessment-in-engineering-principles-system-representation-and-risk-criteria.pdf",
+        "label": "Download PDF",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "organisation": "Joint Committee on Structural Safety",
+    "page": "catalogue/reports",
+    "date_kind": "Document date",
+    "supporting": false,
+    "editors": "M. H. Faber",
+    "status": "",
+    "organisation_role": "Issuing organisation"
+  },
+  {
+    "id": "work-ee35467d751a",
+    "group": "notices",
+    "section": "2008",
+    "section_order": "2008-07",
+    "title": "Risk assessment in engineering press release",
+    "date": "2008-07-01",
+    "authors": "",
+    "document_type": "Press release",
+    "note": "Announcement of the risk-assessment publication, dated 1 July 2008.",
+    "order": 0,
+    "resources": [
+      {
+        "file": "publications/jcss-publications-2008-07-01-risk-assessment-in-engineering-press-release.pdf",
+        "label": "Download PDF",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "organisation": "Joint Committee on Structural Safety",
+    "page": "catalogue/notices",
+    "date_kind": "Document date",
+    "supporting": false
+  },
+  {
+    "id": "work-99835e7d743b",
+    "group": "reports",
+    "section": "Risk acceptance and LQI",
+    "section_order": "2008-11",
+    "title": "Risk Acceptance Criteria",
+    "date": "2008-11",
+    "authors": "Dimitri Diamantidis",
+    "document_type": "Report",
+    "note": "Background document #3. The tunnel examples retain the source figure and table cross-references and differing reference years.",
+    "order": 3,
+    "resources": [
+      {
+        "file": "publications/jcss-publications-2008-11-risk-acceptance-criteria.pdf",
+        "label": "Download PDF",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "organisation": "Joint Committee on Structural Safety",
+    "page": "catalogue/reports",
+    "date_kind": "Document date",
+    "supporting": false,
+    "editors": "",
+    "status": "In review in the source catalogue",
+    "organisation_role": "Issuing organisation"
+  },
+  {
+    "id": "work-315d66b2ce60",
+    "group": "reports",
+    "section": "Risk assessment",
+    "section_order": "2008-11",
+    "title": "Terminology",
+    "date": "2008-11",
+    "authors": "Milan Holický",
+    "document_type": "Report",
+    "note": "Background document #7. The tolerable-risk cross-reference names Section 4.4; the definition appears in Section 4.3.",
+    "order": 7,
+    "resources": [
+      {
+        "file": "publications/jcss-publications-2008-11-terminology.pdf",
+        "label": "Download PDF",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "organisation": "Joint Committee on Structural Safety",
+    "page": "catalogue/reports",
+    "date_kind": "Document date",
+    "supporting": false,
+    "editors": "",
+    "status": "Described as a draft in the source",
+    "organisation_role": "Issuing organisation"
+  },
+  {
+    "id": "work-e62fe6ff8735",
+    "group": "reports",
+    "section": "Risk acceptance and LQI",
+    "section_order": "2008-11",
+    "title": "The Philosophy Behind the Life Quality Index and Empirical Verification",
+    "date": "2008-11",
+    "authors": "Rüdiger Rackwitz",
+    "document_type": "Report",
+    "note": "Basic document #4. The November 2008 cover encloses a memorandum dated November 2005, including unresolved citations marked [?].",
+    "order": 4,
+    "resources": [
+      {
+        "file": "publications/jcss-publications-2008-11-the-philosophy-behind-the-life-quality-index-and-empirical-verification.pdf",
+        "label": "Download PDF",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "organisation": "Joint Committee on Structural Safety",
+    "page": "catalogue/reports",
+    "date_kind": "Cover date",
+    "supporting": false,
+    "editors": "",
+    "status": "Updated memorandum",
+    "organisation_role": "Issuing organisation"
+  },
+  {
+    "id": "work-b3b8f1333db1",
+    "group": "reports",
+    "section": "Risk assessment",
+    "section_order": "2008-11",
+    "title": "Theoretical Framework for Risk Assessment and Evaluation",
+    "date": "2008-11",
+    "authors": "Inger B. Kroon and Marc A. Maes",
+    "document_type": "Report",
+    "note": "Background document #1, November 2008 edition. Numerical citations and the unnumbered bibliography are retained as supplied.",
+    "order": 1,
+    "resources": [
+      {
+        "file": "publications/jcss-publications-2008-11-theoretical-framework-for-risk-assessment-and-evaluation.pdf",
+        "label": "Download PDF",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "organisation": "Joint Committee on Structural Safety",
+    "page": "catalogue/reports",
+    "date_kind": "Document date",
+    "supporting": false,
+    "editors": "",
+    "status": "",
+    "organisation_role": "Issuing organisation"
+  },
+  {
+    "id": "work-b7c0c0546482",
+    "group": "reports",
+    "section": "Governance and climate",
+    "section_order": "2025-04",
+    "title": "Protocol for Risk-Informed Governance and Communication",
+    "date": "2025-04",
+    "authors": "Joint Committee on Structural Safety",
+    "document_type": "Report",
+    "note": "April 2025 edition. The source summary describes the protocol as a draft.",
+    "order": 0,
+    "resources": [
+      {
+        "file": "publications/jcss-publications-2025-04-protocol-for-risk-informed-governance-and-communication.pdf",
+        "label": "Download PDF",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "organisation": "Joint Committee on Structural Safety",
+    "page": "catalogue/reports",
+    "date_kind": "Document date",
+    "supporting": false,
+    "editors": "Ton Vrouwenvelder",
+    "status": "",
+    "organisation_role": "Issuing organisation"
+  },
+  {
+    "id": "work-7e9dfb5d732c",
+    "group": "reports",
+    "section": "Governance and climate",
+    "section_order": "2025-06",
+    "title": "Uncertain Climate Futures – A New Reality for Structural Design and Integrity Management",
+    "date": "2025-06-17",
+    "authors": "Participants of the International Workshop on Uncertain Climate Futures",
+    "document_type": "Consensus statement",
+    "note": "Statement of the participants at the 17 June 2025 workshop held under the auspices of FRI and JCSS. Its deadlines and implementation horizons refer to that date.",
+    "order": 0,
+    "resources": [
+      {
+        "file": "publications/jcss-publications-2025-06-17-uncertain-climate-futures-consensus-statement.pdf",
+        "label": "Download PDF",
+        "online_label": "Read online",
+        "secondary": false
+      }
+    ],
+    "organisation": "FRI and JCSS",
+    "page": "catalogue/reports",
+    "date_kind": "Document date",
+    "supporting": false,
+    "editors": "",
+    "status": "",
+    "organisation_role": "Workshop auspices"
+  }
+]

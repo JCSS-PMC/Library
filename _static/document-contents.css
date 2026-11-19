@@ -1,0 +1,5 @@
+/* Keep the current chapter identifiable while the theme tracks its sections. */
+#pst-page-toc-nav .document-contents a.document-current-page {
+  color: var(--pst-color-primary);
+  font-weight: 600;
+}

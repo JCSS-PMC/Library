@@ -1,0 +1,33 @@
+{% from "../macros/buttons.html" import render_funcs with context %}
+
+<div class="article-header-buttons">
+  {% for button in header_buttons %}
+    {% if button.get('label') == 'download-buttons' and library_original %}
+    <div class="dropdown dropdown-download-buttons">
+      <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false" aria-label="Downloads" title="Downloads">
+        <i class="fas fa-download" aria-hidden="true"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="btn btn-sm dropdown-item library-original" href="{{ library_original.href|e }}"
+               download="{{ library_original.filename|e }}" aria-label="Download original PDF: {{ library_original.title|e }}">
+          <span class="btn__icon-container"><i class="fas fa-file-pdf" aria-hidden="true"></i></span>
+          <span class="btn__text-container">Original PDF</span>
+        </a></li>
+        {% for item in button['buttons'] %}
+          {% set options = item.copy() %}
+          {% set type = options.pop('type') %}
+          <li>{{ render_funcs[type](classes='dropdown-item', tooltip_placement='left', **options) }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% else %}
+      {% set options = button.copy() %}
+      {% set type = options.pop('type') %}
+      {{ render_funcs[type](**options) }}
+    {% endif %}
+  {% endfor %}
+  {% include "theme-switcher.html" %}
+  {% include "search-button.html" %}
+  {% include "toggle-secondary-sidebar.html" %}
+</div>

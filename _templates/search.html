@@ -1,0 +1,18 @@
+{% extends "!search.html" %}
+{% block docs_body %}
+<div class="bd-search-container">
+<h1>Search</h1>
+{% include "../components/search-field.html" %}
+<noscript><p>Enable JavaScript to search this library.</p></noscript>
+<p>Search titles, authors, dates, activities, and resource types. Library entries include original downloads and reading editions. Page text matches are listed separately below.</p>
+<section id="library-search-results" aria-labelledby="library-search-heading" hidden>
+  <h2 id="library-search-heading">Library entries</h2>
+  <p id="library-search-status" role="status"></p>
+  <ol id="library-search-list"></ol>
+</section>
+<section aria-labelledby="library-text-heading">
+  <h2 id="library-text-heading">Page text matches</h2>
+  <div id="search-results"></div>
+</section>
+</div>
+{% endblock %}

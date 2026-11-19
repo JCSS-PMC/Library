@@ -1,0 +1,54 @@
+# Preserve upstream snapshot bytes, including their original line endings.
+downloads/** -text -diff
+review/batch-05/workshop-pages/*.md -text
+review/2012-08-*/source-bbox.xml -text
+review/2012-08-*/source-layout.txt -text
+review/2012-08-*/source-blocks.json -text
+review/2020-01-ship-collision-risk-workshop-conclusions/source-bbox.xml -text
+review/2020-01-ship-collision-risk-workshop-conclusions/source-layout.txt -text
+review/2020-01-ship-collision-risk-workshop-conclusions/source-blocks.json -text
+review/2022-09-from-science-to-practice-identified-gaps/source-bbox.xml -text
+review/2022-09-from-science-to-practice-identified-gaps/source-layout.txt -text
+review/2022-09-from-science-to-practice-identified-gaps/source-blocks.json -text
+review/2018-08-greenhouse-gas-emissions-structural-design-codes-overlooked/source-bbox.xml -text
+review/2018-08-greenhouse-gas-emissions-structural-design-codes-overlooked/source-layout.txt -text
+review/2018-08-greenhouse-gas-emissions-structural-design-codes-overlooked/source-blocks.json -text
+review/2023-06-hoj-fn-criterion-lines-slides/source-bbox.xml -text
+review/2023-06-hoj-fn-criterion-lines-slides/source-layout.txt -text
+review/2023-06-hoj-fn-criterion-lines-slides/source-blocks.json -text
+review/2023-06-kohl-risk-based-decision-making-in-tunnel-safety-slides/source-bbox.xml -text
+review/2023-06-kohl-risk-based-decision-making-in-tunnel-safety-slides/source-layout.txt -text
+review/2023-06-kohl-risk-based-decision-making-in-tunnel-safety-slides/source-blocks.json -text
+review/2023-06-schubert-engineering-methods-and-practical-examples-slides/source-bbox.xml -text
+review/2023-06-schubert-engineering-methods-and-practical-examples-slides/source-layout.txt -text
+review/2023-06-schubert-engineering-methods-and-practical-examples-slides/source-blocks.json -text
+
+review/2023-06-moan-risk-analysis-and-acceptance-for-floating-bridges-slides/source-bbox.xml -text
+review/2023-06-moan-risk-analysis-and-acceptance-for-floating-bridges-slides/source-layout.txt -text
+review/2023-06-moan-risk-analysis-and-acceptance-for-floating-bridges-slides/source-blocks.json -text
+review/2023-06-lentz-risk-acceptance-criteria-for-bridges-slides/source-bbox.xml -text
+review/2023-06-lentz-risk-acceptance-criteria-for-bridges-slides/source-layout.txt -text
+review/2023-06-lentz-risk-acceptance-criteria-for-bridges-slides/source-blocks.json -text
+review/2023-06-vrouwenvelder-target-reliability-in-codes-of-practice-slides/source-bbox.xml -text
+review/2023-06-vrouwenvelder-target-reliability-in-codes-of-practice-slides/source-layout.txt -text
+review/2023-06-vrouwenvelder-target-reliability-in-codes-of-practice-slides/source-blocks.json -text
+
+review/2023-06-ersdal-regulation-without-risk-acceptance-criteria-slides/source-bbox.xml -text
+review/2023-06-ersdal-regulation-without-risk-acceptance-criteria-slides/source-layout.txt -text
+review/2023-06-ersdal-regulation-without-risk-acceptance-criteria-slides/source-blocks.json -text
+review/2023-06-heide-safety-regulation-in-the-oil-and-gas-industry-slides/source-bbox.xml -text
+review/2023-06-heide-safety-regulation-in-the-oil-and-gas-industry-slides/source-layout.txt -text
+review/2023-06-heide-safety-regulation-in-the-oil-and-gas-industry-slides/source-blocks.json -text
+review/2023-06-larsson-ivanov-perspective-from-a-building-authority-slides/source-bbox.xml -text
+review/2023-06-larsson-ivanov-perspective-from-a-building-authority-slides/source-layout.txt -text
+review/2023-06-larsson-ivanov-perspective-from-a-building-authority-slides/source-blocks.json -text
+
+review/2023-06-kohler-and-hoj-introduction-to-risk-acceptance-criteria-slides/source-bbox.xml -text
+review/2023-06-kohler-and-hoj-introduction-to-risk-acceptance-criteria-slides/source-layout.txt -text
+review/2023-06-kohler-and-hoj-introduction-to-risk-acceptance-criteria-slides/source-blocks.json -text
+review/2023-06-lian-unmanning-criteria-for-extreme-storm-events-slides/source-bbox.xml -text
+review/2023-06-lian-unmanning-criteria-for-extreme-storm-events-slides/source-layout.txt -text
+review/2023-06-lian-unmanning-criteria-for-extreme-storm-events-slides/source-blocks.json -text
+review/2023-06-proske-safety-targets-for-swiss-nuclear-power-plants-slides/source-bbox.xml -text
+review/2023-06-proske-safety-targets-for-swiss-nuclear-power-plants-slides/source-layout.txt -text
+review/2023-06-proske-safety-targets-for-swiss-nuclear-power-plants-slides/source-blocks.json -text

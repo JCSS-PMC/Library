@@ -1,0 +1,36 @@
+format: jb-book
+root: intro
+parts:
+- caption: Library
+  numbered: false
+  chapters:
+  - file: catalogue/reports
+    sections:
+    - file: publications/2008-06-risk-assessment-in-engineering/index
+      sections:
+      - file: publications/2008-06-risk-assessment-in-engineering/01-introduction
+      - file: publications/2008-06-risk-assessment-in-engineering/02-framework-for-risk-assessment
+      - file: publications/2008-06-risk-assessment-in-engineering/03-system-modeling
+      - file: publications/2008-06-risk-assessment-in-engineering/04-risk-assessment
+    - file: publications/2008-11-theoretical-framework-for-risk-assessment-and-evaluation/index
+    - file: publications/2008-11-terminology/index
+    - file: publications/2008-11-risk-acceptance-criteria/index
+    - file: publications/2008-11-the-philosophy-behind-the-life-quality-index-and-empirical-verification/index
+    - file: publications/2025-04-protocol-for-risk-informed-governance-and-communication/index
+    - file: publications/2025-06-17-uncertain-climate-futures-consensus-statement/index
+  - file: catalogue/literature
+  - file: catalogue/events
+    sections:
+    - file: publications/2023-06-schubert-engineering-methods-and-practical-examples-extended-abstract/index
+    - file: publications/2023-06-moan-risk-analysis-and-acceptance-for-floating-bridges-extended-abstract/index
+    - file: publications/2023-06-kohl-risk-based-decision-making-in-tunnel-safety-extended-abstract/index
+    - file: publications/2020-01-ship-collision-risk-workshop-conclusions/index
+    - file: publications/2012-08-origin-and-development-of-the-lqi/index
+  - file: catalogue/education
+    sections:
+    - file: catalogue/webinars-2022-2023
+      sections:
+      - file: publications/2022-09-from-science-to-practice-identified-gaps/index
+  - file: catalogue/notices
+    sections:
+    - file: publications/2018-08-greenhouse-gas-emissions-structural-design-codes-overlooked/index
