@@ -6,7 +6,7 @@ Reports, guidance, event contributions, and educational material associated with
 2. [JCSS website](https://www.jcss-lc.org/)
 3. [Probabilistic Model Code](https://jcss-pmc.github.io/PMC/part-00/intro.html)
 
-The [opening page](intro.md#about-the-library) explains source editions, citation examples, corrections, and attribution. Catalogue dates and qualifications remain part of the source record. Inclusion does not turn an archived draft into current approved guidance.
+The [opening page](intro.md#about-the-library) explains how to find original documents, cite the material, and report errors. Catalogue dates and qualifications remain part of the source record. Inclusion does not turn an archived draft into current approved guidance.
 
 ## Build locally
 

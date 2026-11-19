@@ -34,39 +34,27 @@ Reports, papers, and original documents from the Joint Committee on Structural S
 
 ## About the Library
 
-The JCSS Library brings together reports, guidance, event contributions, and educational material associated with the Joint Committee on Structural Safety. It provides online reading editions alongside original documents and references to selected journal issues and papers. The [JCSS website](https://www.jcss-lc.org/) provides information about the committee and its activities.
+The Library collects publications and material from JCSS courses, workshops, and meetings. It includes reports that can be read online and original documents available for download. The [Probabilistic Model Code](https://jcss-pmc.github.io/PMC/part-00/intro.html) is available separately. Visit the [JCSS website](https://www.jcss-lc.org/) for information about the committee and its activities.
 
-### Editions and source documents
+<span id="editions-and-source-documents"></span>
 
-Reading editions preserve the wording, mathematical notation, figures, and references of the identified source. Their layout is adapted for the web using the Probabilistic Model Code template. The **Original PDF** item in the download menu opens the source document, which retains its printed pagination.
+### Original documents
 
-Dates and draft labels describe the source edition or activity. Inclusion in the Library does not make an archived draft current JCSS guidance or establish that an announced event took place. Notes beside catalogue entries explain material differences between source versions and other qualifications relevant to their use.
+Online editions retain the text, equations, figures, and references of the original documents. Select **Original PDF** from the download menu to view the original layout and page numbers. Presentations are available as downloads from their catalogue entries. Dates and draft labels refer to the original documents, including drafts retained in the collection.
 
-Presentations are provided as original downloads, with externally hosted files identified beside their links. Journal entries link to publisher, DOI, or institutional records, where access to the full text depends on the provider. Search covers catalogue metadata and online page text, but does not search the contents of download-only files.
+<span id="citing-a-document"></span>
 
-### Citing a document
+### Citing the material
 
-Cite the document's authors or issuing organisation, title, date, and edition. Use the **Source and citation** section of a reading edition where available, and use the original PDF for printed page references. Add the page URL and access date when referring specifically to the online edition.
-
-For example:
+Cite the individual work using its authors, title, publication date, and edition. The **Source and citation** section of each online edition provides these details. Use the original PDF when referring to page numbers. For example:
 
 > Joint Committee on Structural Safety (JCSS). (2025). *Protocol for Risk-Informed Governance and Communication*. April 2025.
 
-> Joint Committee on Structural Safety (JCSS). (2008). *Risk Assessment in Engineering: Principles, System Representation & Risk Criteria*. M. H. Faber (Ed.). June 2008. ISBN 978-3-909386-78-9.
+<span id="attribution-and-reuse"></span>
 
-For journal papers, use the paper's own citation and DOI. For presentations and abstracts, identify the contribution type and event rather than citing the entire Library as the author.
+For journal articles, use the published citation and DOI. Copyright and reuse conditions remain those of the original work.
 
-### Corrections
+<span id="corrections"></span>
+<span id="related-resources"></span>
 
-Use the issue button beside the GitHub icon to report a transcription, rendering, metadata, or link error. Include the document title, page or section, source edition, and a description of the discrepancy. Questions about the scientific content should identify the relevant source passage and remain separate from conversion errors.
-
-Original files are retained unchanged. An authorised correction should identify its source edition and be recorded as an erratum or a clearly identified replacement. The online reading edition should retain a record of any substantive change.
-
-### Attribution and reuse
-
-Authorship and source attribution remain with the respective documents. The Library does not apply a new blanket licence to historical documents, journal articles, or JCSS artwork. Refer to the terms supplied with the specific work and its original provider when reusing material.
-
-### Related resources
-
-1. [JCSS website](https://www.jcss-lc.org/)
-2. [Probabilistic Model Code](https://jcss-pmc.github.io/PMC/part-00/intro.html)
+If you find an error or a broken link, [report it on GitHub](https://github.com/JCSS-PMC/Library/issues). Please include the document title and the affected page or section.
