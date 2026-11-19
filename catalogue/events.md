@@ -1,8 +1,16 @@
-# Events and meetings
+# Workshop archive
 
-Papers, abstracts, conclusions, presentations, and programmes are grouped by event, with the newest first. Related resources share an entry. Announcements and programmes describe the activity proposed in the source; they do not establish that it took place. Registration details belong to the stated event date. Draft and preliminary versions retain their original labels.
+Workshop programmes, papers, presentations and conclusions are listed by date and place, newest first.
 
-## 2026-10 — JCSS meeting and Societal Preferences on Risk Acceptance — Waterloo
+<span id="events-and-meetings"></span>
+
+(workshop-2026-10-waterloo)=
+
+## 21–22 October 2026 · Waterloo, Canada
+
+<span id="jcss-meeting-and-societal-preferences-on-risk-acceptance-waterloo"></span>
+
+**Societal Preferences on Risk Acceptance**
 
 ### Activity documents
 
@@ -20,7 +28,13 @@ Papers, abstracts, conclusions, presentations, and programmes are grouped by eve
 
 ::::::
 
-## 2026-04 — JCSS meeting and Assessment of Existing Structures — Aalborg
+(workshop-2026-04-aalborg)=
+
+## 8–9 April 2026 · Aalborg, Denmark
+
+<span id="jcss-meeting-and-assessment-of-existing-structures-aalborg"></span>
+
+**Assessment of Existing Structures**
 
 ### Activity documents
 
@@ -38,7 +52,13 @@ Papers, abstracts, conclusions, presentations, and programmes are grouped by eve
 
 ::::::
 
-## 2025-10 — Global Reliability of Structures & Code Calibration — Tongji
+(workshop-2025-10-shanghai)=
+
+## 25–26 October 2025 · Shanghai, China
+
+<span id="global-reliability-of-structures-code-calibration-tongji"></span>
+
+**Global Reliability of Structures and Code Calibration**
 
 ### Activity documents
 
@@ -56,7 +76,15 @@ Papers, abstracts, conclusions, presentations, and programmes are grouped by eve
 
 ::::::
 
-## 2025-06 — Uncertain Climate Futures — Copenhagen
+(workshop-2025-06-copenhagen)=
+
+## 16–17 June 2025 · Copenhagen, Denmark
+
+<span id="uncertain-climate-futures-copenhagen"></span>
+
+**Uncertain Climate Futures – A New Reality for Structural Design and Integrity Management**
+
+[Workshop details](https://www.jcss-lc.org/workshop-on-uncertain-climate-futures-a-new-reality-for-structural-design-and-integrity-management/)
 
 ### Activity documents
 
@@ -82,7 +110,15 @@ Papers, abstracts, conclusions, presentations, and programmes are grouped by eve
 
 ::::::
 
-## 2025-05 — Managing Structural Safety — London
+(workshop-2025-05-london)=
+
+## 20–21 May 2025 · London, UK
+
+<span id="managing-structural-safety-london"></span>
+
+**Managing Structural Safety**
+
+[Workshop details](https://www.jcss-lc.org/workshop-on-managing-structural-safety/)
 
 ### Activity documents
 
@@ -100,7 +136,15 @@ Papers, abstracts, conclusions, presentations, and programmes are grouped by eve
 
 ::::::
 
-## 2024-12 — Time-variant Reliability Analysis — Munich
+(workshop-2024-12-munich)=
+
+## 2–3 December 2024 · Munich, Germany
+
+<span id="time-variant-reliability-analysis-munich"></span>
+
+**Time-variant Reliability Analysis – Old Challenges and New Solutions**
+
+[Workshop details](https://www.jcss-lc.org/workshop-on-time-variant-reliability-analysis-old-challenges-and-new-solutions/)
 
 ### Activity documents
 
@@ -118,7 +162,15 @@ Papers, abstracts, conclusions, presentations, and programmes are grouped by eve
 
 ::::::
 
-## 2024-05 — JCSS meeting and anniversary workshop — Prague
+(workshop-2024-05-prague)=
+
+## 22–23 May 2024 · Prague, Czech Republic
+
+<span id="jcss-meeting-and-anniversary-workshop-prague"></span>
+
+**Structural Safety – Past Advancements and Future Challenges**
+
+[Workshop details](https://www.jcss-lc.org/workshop-on-risk-acceptance-criteria-in-civil-engineering-decision-making-2/)
 
 ### Activity documents
 
@@ -146,7 +198,15 @@ Papers, abstracts, conclusions, presentations, and programmes are grouped by eve
 
 ::::::
 
-## 2023-06 — Risk Acceptance Criteria — Trondheim
+(workshop-2023-06-trondheim)=
+
+## 19–20 June 2023 · Trondheim, Norway
+
+<span id="risk-acceptance-criteria-trondheim"></span>
+
+**Risk Acceptance Criteria in Civil Engineering Decision Making**
+
+[Workshop details](https://www.jcss-lc.org/workshop-on-risk-acceptance-criteria-in-civil-engineering-decision-making/)
 
 (work-a7b9af733e21)=
 
@@ -336,7 +396,13 @@ Gerhard Ersdal · Presentation
 
 ::::::
 
-## 2021-05 — Risk Acceptance Criteria — announced 2021 workshop
+(workshop-2021-05-trondheim)=
+
+## 31 May–1 June 2021 · Trondheim, Norway
+
+<span id="risk-acceptance-criteria-announced-2021-workshop"></span>
+
+**Risk Acceptance Criteria in Civil Engineering Decision Making (announced workshop)**
 
 ### Activity documents
 
@@ -356,7 +422,15 @@ Announcement for the proposed 2021 workshop. Retained separately from the 2020 a
 
 ::::::
 
-## 2021-01 — Assessment of Existing Structures
+(workshop-2021-01-online)=
+
+## 28–29 January 2021 · Online
+
+<span id="assessment-of-existing-structures"></span>
+
+**Assessment of Existing Structures**
+
+[Workshop details](https://www.jcss-lc.org/workshop-on-assessment-of-existing-structures/)
 
 (work-0d1ad2ba7436)=
 
@@ -652,7 +726,13 @@ Workshop information
 
 ::::::
 
-## 2020-06 — Risk Acceptance Criteria — announced 2020 workshop
+(workshop-2020-06-trondheim)=
+
+## 8–9 June 2020 · Trondheim, Norway
+
+<span id="risk-acceptance-criteria-announced-2020-workshop"></span>
+
+**Risk Acceptance Criteria in Civil Engineering Decision Making (announced workshop)**
 
 ### Activity documents
 
@@ -672,7 +752,15 @@ Announcement for the proposed 2020 workshop. Retained separately from the 2021 a
 
 ::::::
 
-## 2020-01 — Ship Collision Risk Assessment
+(workshop-2020-01-kongens-lyngby)=
+
+## 14–15 January 2020 · Kongens Lyngby, Denmark
+
+<span id="ship-collision-risk-assessment"></span>
+
+**Ship Collision Risk Assessment**
+
+[Workshop details](https://www.jcss-lc.org/workshop-ship-collision-risk-assessment/)
 
 (work-6b9e714ead99)=
 
@@ -686,7 +774,13 @@ Workshop conclusions
 
 [Read online](../publications/2020-01-ship-collision-risk-workshop-conclusions/index.md) · {download}`Download conclusions (PDF) <../publications/2020-01-ship-collision-risk-workshop-conclusions/source.pdf>` · <span class="library-file-details">5 pages · 192.2 kB</span>
 
-## 2019-01 — Methods for Structural Reliability Analysis
+(workshop-2019-01-delft)=
+
+## 21 January 2019 · Delft, Netherlands
+
+<span id="methods-for-structural-reliability-analysis"></span>
+
+**Methods for Structural Reliability Analysis**
 
 ### Activity documents
 
@@ -704,7 +798,15 @@ Workshop conclusions
 
 ::::::
 
-## 2012-08 — Life Quality Index Symposium
+(workshop-2012-08-kongens-lyngby)=
+
+## 21–23 August 2012 · Kongens Lyngby, Denmark
+
+<span id="life-quality-index-symposium"></span>
+
+**Life Quality Index Symposium**
+
+[Workshop details](https://www.jcss-lc.org/lqi-symposium/)
 
 (work-104fec9c6974)=
 
@@ -734,7 +836,13 @@ August 2012 symposium contribution. The source uses differing function labels an
 
 [Read online](../publications/2012-08-origin-and-development-of-the-lqi/index.md) · {download}`Download paper (PDF) <../publications/2012-08-origin-and-development-of-the-lqi/source.pdf>` · <span class="library-file-details">6 pages · 189.5 kB</span>
 
-## 2008-10 — Structural Robustness
+(workshop-2008-10-stanford)=
+
+## 28 October 2008 · Stanford, USA
+
+<span id="structural-robustness"></span>
+
+**Structural Robustness**
 
 ### Activity documents
 

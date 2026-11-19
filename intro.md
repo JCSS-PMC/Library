@@ -12,13 +12,15 @@ Reports, papers, and original documents from the Joint Committee on Structural S
 
 [Browse special issues and selected papers](catalogue/literature.md) associated with JCSS. References link to journal issues, DOI records, and institutional repositories. Full-text availability is determined by the linked provider.
 
-## Events and meetings
+## Workshop archive
+
+<span id="events-and-meetings"></span>
 
 <span id="symposium-papers"></span>
 <span id="workshop-material"></span>
 <span id="workshop-presentations"></span>
 
-[Browse events and meetings](catalogue/events.md), ordered by date. Papers, abstracts, conclusions, presentations, and programmes are collected under their event. Presentations link directly to the original downloads.
+[Browse the workshop archive](catalogue/events.md) by date and place. Each entry brings together the available programme, presentations, papers and conclusions.
 
 ## Education
 

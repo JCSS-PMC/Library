@@ -16,13 +16,13 @@ import shutil
 ROOT = Path(__file__).resolve().parent.parent
 TITLES = {
     'reports': 'Reports and guidance',
-    'events': 'Events and meetings',
+    'events': 'Workshop archive',
     'education': 'Education',
     'notices': 'Publication notices and press releases',
 }
 INTRODUCTIONS = {
     'reports': 'Reports are grouped by subject. Each entry provides its reading edition and original PDF, with source dates and draft or edition details where applicable.',
-    'events': 'Papers, abstracts, conclusions, presentations, and programmes are grouped by event, with the newest first. Related resources share an entry. Announcements and programmes describe the activity proposed in the source; they do not establish that it took place. Registration details belong to the stated event date. Draft and preliminary versions retain their original labels.',
+    'events': 'Workshop programmes, papers, presentations and conclusions are listed by date and place, newest first.',
     'education': 'Course documents are collected under their activity. The infrastructure integrity webinar series brings together session posters and supplementary reading. Activities are ordered with the newest first, and webinar sessions follow their scheduled sequence.',
     'notices': 'Publication information and press releases are ordered by year, with the newest first. A publication notice describes a work and does not provide its full text.',
 }
@@ -168,10 +168,21 @@ def catalogue_page(group, entries, works=None):
         sections = ['Risk assessment', 'Risk acceptance and LQI', 'Structural assessment',
                     'Monitoring and inspection', 'Governance and climate']
     lines = [f'# {TITLES[group]}', '', INTRODUCTIONS[group], '']
+    if group == 'events':
+        workshops = json.loads((ROOT / 'catalogue/workshops.json').read_text(encoding='utf-8'))
+        assert set(sections) == set(workshops), 'Every workshop must have catalogue material and a dated venue.'
+        lines += ['<span id="events-and-meetings"></span>', '']
     for section in sections:
         if not any(work['section'] == section for work in selected):
             continue
-        lines += [f'## {section}', '']
+        if group == 'events':
+            workshop = workshops[section]
+            lines += [f'({section})=', '', f"## {workshop['heading']}", '',
+                      f"<span id=\"{workshop['legacy_anchor']}\"></span>", '', f"**{workshop['topic']}**", '']
+            if workshop.get('details'):
+                lines += [f"[Workshop details]({workshop['details']})", '']
+        else:
+            lines += [f'## {section}', '']
         if section == '2022 to 2023 — Risk, resilience and sustainability':
             lines += ['Webinar series: *Risk, resilience and sustainability informed integrity management of infrastructure systems*. Dates below identify the scheduled sessions.', '']
         records = sorted((work for work in selected if work['section'] == section),

@@ -609,7 +609,7 @@
   {
     "id": "work-9b42f5c0b3a1",
     "group": "events",
-    "section": "2008-10 — Structural Robustness",
+    "section": "workshop-2008-10-stanford",
     "section_order": "2008-10",
     "title": "Workshop on structural robustness",
     "date": "2008-10",
@@ -632,7 +632,7 @@
   {
     "id": "work-104fec9c6974",
     "group": "events",
-    "section": "2012-08 — Life Quality Index Symposium",
+    "section": "workshop-2012-08-kongens-lyngby",
     "section_order": "2012-08",
     "title": "Life Quality Index Symposium — memorial programme and LQTAI presentation",
     "date": "2012-08",
@@ -655,7 +655,7 @@
   {
     "id": "work-3948c42cdc9c",
     "group": "events",
-    "section": "2012-08 — Life Quality Index Symposium",
+    "section": "workshop-2012-08-kongens-lyngby",
     "section_order": "2012-08",
     "title": "Origin and Development of the LQI",
     "date": "2012-08",
@@ -702,7 +702,7 @@
   {
     "id": "work-9ab554b05a6f",
     "group": "events",
-    "section": "2019-01 — Methods for Structural Reliability Analysis",
+    "section": "workshop-2019-01-delft",
     "section_order": "2019-01",
     "title": "Methods for Structural Reliability Analysis — workshop announcement",
     "date": "2019-01",
@@ -725,7 +725,7 @@
   {
     "id": "work-6b9e714ead99",
     "group": "events",
-    "section": "2020-01 — Ship Collision Risk Assessment",
+    "section": "workshop-2020-01-kongens-lyngby",
     "section_order": "2020-01",
     "title": "JCSS Workshop on Ship Collision Risk Assessment",
     "date": "2020-01",
@@ -748,7 +748,7 @@
   {
     "id": "work-2acdff4ba160",
     "group": "events",
-    "section": "2020-06 — Risk Acceptance Criteria — announced 2020 workshop",
+    "section": "workshop-2020-06-trondheim",
     "section_order": "2020-06",
     "title": "Risk Acceptance Criteria — 2020 workshop announcement",
     "date": "2020-06",
@@ -771,7 +771,7 @@
   {
     "id": "work-0d1ad2ba7436",
     "group": "events",
-    "section": "2021-01 — Assessment of Existing Structures",
+    "section": "workshop-2021-01-online",
     "section_order": "2021-01",
     "title": "A Showcase of a Reliability-Based Approach to an Existing Offshore Steel Structure",
     "date": "2021-01",
@@ -794,7 +794,7 @@
   {
     "id": "work-16a99c0cacd5",
     "group": "events",
-    "section": "2021-01 — Assessment of Existing Structures",
+    "section": "workshop-2021-01-online",
     "section_order": "2021-01",
     "title": "Assessment of Bridges Based on Updated Information and Monitoring, Croatian Perspectives",
     "date": "2021-01",
@@ -817,7 +817,7 @@
   {
     "id": "work-f6781fdbf7c4",
     "group": "events",
-    "section": "2021-01 — Assessment of Existing Structures",
+    "section": "workshop-2021-01-online",
     "section_order": "2021-01",
     "title": "Assessment of Existing Structures — programme and announcement",
     "date": "2021-01",
@@ -846,7 +846,7 @@
   {
     "id": "work-787fc6a53bed",
     "group": "events",
-    "section": "2021-01 — Assessment of Existing Structures",
+    "section": "workshop-2021-01-online",
     "section_order": "2021-01",
     "title": "Capacity Upgrade of Existing Bridges by Probabilistic Methods",
     "date": "2021-01",
@@ -869,7 +869,7 @@
   {
     "id": "work-b7a9de715ad7",
     "group": "events",
-    "section": "2021-01 — Assessment of Existing Structures",
+    "section": "workshop-2021-01-online",
     "section_order": "2021-01",
     "title": "Characteristic concrete strength of existing structures according to EN 13791",
     "date": "2021-01",
@@ -892,7 +892,7 @@
   {
     "id": "work-681bb1a57683",
     "group": "events",
-    "section": "2021-01 — Assessment of Existing Structures",
+    "section": "workshop-2021-01-online",
     "section_order": "2021-01",
     "title": "Assessment of Existing Structures — opening address",
     "date": "2021-01",
@@ -915,7 +915,7 @@
   {
     "id": "work-3e42fe0636b3",
     "group": "events",
-    "section": "2021-01 — Assessment of Existing Structures",
+    "section": "workshop-2021-01-online",
     "section_order": "2021-01",
     "title": "Perspectives on Reassessment of Structures and Regulation",
     "date": "2021-01",
@@ -938,7 +938,7 @@
   {
     "id": "work-9bce338c5095",
     "group": "events",
-    "section": "2021-01 — Assessment of Existing Structures",
+    "section": "workshop-2021-01-online",
     "section_order": "2021-01",
     "title": "fib TG 3.1 Developments Concerning Semi-Probabilistic Format",
     "date": "2021-01",
@@ -961,7 +961,7 @@
   {
     "id": "work-53c321ed30c9",
     "group": "events",
-    "section": "2021-01 — Assessment of Existing Structures",
+    "section": "workshop-2021-01-online",
     "section_order": "2021-01",
     "title": "Lessons learnt assessing structures in the last 30 years",
     "date": "2021-01",
@@ -984,7 +984,7 @@
   {
     "id": "work-7061a9802130",
     "group": "events",
-    "section": "2021-01 — Assessment of Existing Structures",
+    "section": "workshop-2021-01-online",
     "section_order": "2021-01",
     "title": "Monitoring bridges using bridge weigh-in-motion technology",
     "date": "2021-01",
@@ -1007,7 +1007,7 @@
   {
     "id": "work-4f2bb8c15842",
     "group": "events",
-    "section": "2021-01 — Assessment of Existing Structures",
+    "section": "workshop-2021-01-online",
     "section_order": "2021-01",
     "title": "Novel Techniques Regarding the Assessment and Monitoring of Structures",
     "date": "2021-01",
@@ -1030,7 +1030,7 @@
   {
     "id": "work-aa7830398c0c",
     "group": "events",
-    "section": "2021-01 — Assessment of Existing Structures",
+    "section": "workshop-2021-01-online",
     "section_order": "2021-01",
     "title": "Potential and Challenges of the Design Value Approach",
     "date": "2021-01",
@@ -1053,7 +1053,7 @@
   {
     "id": "work-7862d2fc346b",
     "group": "events",
-    "section": "2021-01 — Assessment of Existing Structures",
+    "section": "workshop-2021-01-online",
     "section_order": "2021-01",
     "title": "Probabilistic Principles Applied in fib Model Code 2020",
     "date": "2021-01",
@@ -1076,7 +1076,7 @@
   {
     "id": "work-59d6e23c2ab8",
     "group": "events",
-    "section": "2021-01 — Assessment of Existing Structures",
+    "section": "workshop-2021-01-online",
     "section_order": "2021-01",
     "title": "Rehabilitation and seismic upgrading of the Villafranca bridge",
     "date": "2021-01",
@@ -1099,7 +1099,7 @@
   {
     "id": "work-4aabce3a3dee",
     "group": "events",
-    "section": "2021-01 — Assessment of Existing Structures",
+    "section": "workshop-2021-01-online",
     "section_order": "2021-01",
     "title": "Second Generation of Eurocode 8 Part 3 on Seismic Assessment and Retrofit of Existing Structures",
     "date": "2021-01",
@@ -1122,7 +1122,7 @@
   {
     "id": "work-a1ef859fd0ff",
     "group": "events",
-    "section": "2021-01 — Assessment of Existing Structures",
+    "section": "workshop-2021-01-online",
     "section_order": "2021-01",
     "title": "Semi-Probabilistic Format for the Assessment of Existing Bridges: Concepts and Challenges",
     "date": "2021-01",
@@ -1145,7 +1145,7 @@
   {
     "id": "work-64befe2f6158",
     "group": "events",
-    "section": "2021-01 — Assessment of Existing Structures",
+    "section": "workshop-2021-01-online",
     "section_order": "2021-01",
     "title": "Some experiences with proof loading of bridges",
     "date": "2021-01",
@@ -1168,7 +1168,7 @@
   {
     "id": "work-4e69c5329a7c",
     "group": "events",
-    "section": "2021-01 — Assessment of Existing Structures",
+    "section": "workshop-2021-01-online",
     "section_order": "2021-01",
     "title": "Standardisation for Assessment of Existing Structures – Evolution from Technical Specification to Eurocode",
     "date": "2021-01",
@@ -1191,7 +1191,7 @@
   {
     "id": "work-b328ed31238d",
     "group": "events",
-    "section": "2021-01 — Assessment of Existing Structures",
+    "section": "workshop-2021-01-online",
     "section_order": "2021-01",
     "title": "Standardisation for Assessment of Existing Structures in the USA",
     "date": "2021-01",
@@ -1214,7 +1214,7 @@
   {
     "id": "work-a85a24e86786",
     "group": "events",
-    "section": "2021-01 — Assessment of Existing Structures",
+    "section": "workshop-2021-01-online",
     "section_order": "2021-01",
     "title": "Standardisation for Assessment of Existing Structures",
     "date": "2021-01",
@@ -1237,7 +1237,7 @@
   {
     "id": "work-72b31925fdfe",
     "group": "events",
-    "section": "2021-01 — Assessment of Existing Structures",
+    "section": "workshop-2021-01-online",
     "section_order": "2021-01",
     "title": "Thinking About Hidden Safety When Assessing Existing Structures",
     "date": "2021-01",
@@ -1260,7 +1260,7 @@
   {
     "id": "work-10fed778e720",
     "group": "events",
-    "section": "2021-01 — Assessment of Existing Structures",
+    "section": "workshop-2021-01-online",
     "section_order": "2021-01",
     "title": "Updating and Monitoring of Signature Structures",
     "date": "2021-01",
@@ -1283,7 +1283,7 @@
   {
     "id": "work-4b6f67a344b4",
     "group": "events",
-    "section": "2021-01 — Assessment of Existing Structures",
+    "section": "workshop-2021-01-online",
     "section_order": "2021-01",
     "title": "What Makes the Value of Information?",
     "date": "2021-01",
@@ -1306,7 +1306,7 @@
   {
     "id": "work-d8805ad46bf7",
     "group": "events",
-    "section": "2021-05 — Risk Acceptance Criteria — announced 2021 workshop",
+    "section": "workshop-2021-05-trondheim",
     "section_order": "2021-05",
     "title": "Risk Acceptance Criteria — 2021 workshop announcement",
     "date": "2021-05",
@@ -1329,7 +1329,7 @@
   {
     "id": "work-898c6299a8fc",
     "group": "events",
-    "section": "2023-06 — Risk Acceptance Criteria — Trondheim",
+    "section": "workshop-2023-06-trondheim",
     "section_order": "2023-06",
     "title": "Risk Acceptance Criteria — workshop information",
     "date": "2023-06",
@@ -1358,7 +1358,7 @@
   {
     "id": "work-a05c5f544073",
     "group": "events",
-    "section": "2023-06 — Risk Acceptance Criteria — Trondheim",
+    "section": "workshop-2023-06-trondheim",
     "section_order": "2023-06",
     "title": "The regulation of the future without risk acceptance criteria?",
     "date": "2023-06",
@@ -1381,7 +1381,7 @@
   {
     "id": "work-1bda173b214c",
     "group": "events",
-    "section": "2023-06 — Risk Acceptance Criteria — Trondheim",
+    "section": "workshop-2023-06-trondheim",
     "section_order": "2023-06",
     "title": "Formal Criteria Derived from Bayesian Decision Analysis",
     "date": "2023-06",
@@ -1404,7 +1404,7 @@
   {
     "id": "work-9a7afef32092",
     "group": "events",
-    "section": "2023-06 — Risk Acceptance Criteria — Trondheim",
+    "section": "workshop-2023-06-trondheim",
     "section_order": "2023-06",
     "title": "Safety regulation in the oil and gas industry",
     "date": "2023-06",
@@ -1427,7 +1427,7 @@
   {
     "id": "work-a48497624557",
     "group": "events",
-    "section": "2023-06 — Risk Acceptance Criteria — Trondheim",
+    "section": "workshop-2023-06-trondheim",
     "section_order": "2023-06",
     "title": "F-N Criterion lines",
     "date": "2023-06",
@@ -1450,7 +1450,7 @@
   {
     "id": "work-d550b5a18d5d",
     "group": "events",
-    "section": "2023-06 — Risk Acceptance Criteria — Trondheim",
+    "section": "workshop-2023-06-trondheim",
     "section_order": "2023-06",
     "title": "Risk-based decision-making in tunnel safety",
     "date": "2023-06",
@@ -1473,7 +1473,7 @@
   {
     "id": "work-ca52f31f49cc",
     "group": "events",
-    "section": "2023-06 — Risk Acceptance Criteria — Trondheim",
+    "section": "workshop-2023-06-trondheim",
     "section_order": "2023-06",
     "title": "Introduction to Risk Acceptance Criteria",
     "date": "2023-06",
@@ -1496,7 +1496,7 @@
   {
     "id": "work-56d16b78e7bb",
     "group": "events",
-    "section": "2023-06 — Risk Acceptance Criteria — Trondheim",
+    "section": "workshop-2023-06-trondheim",
     "section_order": "2023-06",
     "title": "Perspective from a building authority",
     "date": "2023-06",
@@ -1519,7 +1519,7 @@
   {
     "id": "work-951220c353d8",
     "group": "events",
-    "section": "2023-06 — Risk Acceptance Criteria — Trondheim",
+    "section": "workshop-2023-06-trondheim",
     "section_order": "2023-06",
     "title": "Risk acceptance criteria for bridges",
     "date": "2023-06",
@@ -1542,7 +1542,7 @@
   {
     "id": "work-5fb80b6f17c6",
     "group": "events",
-    "section": "2023-06 — Risk Acceptance Criteria — Trondheim",
+    "section": "workshop-2023-06-trondheim",
     "section_order": "2023-06",
     "title": "Practical implementation of criteria in the oil and gas industry – Unmanning criteria for extreme storm events",
     "date": "2023-06",
@@ -1565,7 +1565,7 @@
   {
     "id": "work-36a1945806d4",
     "group": "events",
-    "section": "2023-06 — Risk Acceptance Criteria — Trondheim",
+    "section": "workshop-2023-06-trondheim",
     "section_order": "2023-06",
     "title": "Risk analysis and acceptance for floating bridges, with emphasis on ship impact hazards",
     "date": "2023-06",
@@ -1588,7 +1588,7 @@
   {
     "id": "work-2c484c897610",
     "group": "events",
-    "section": "2023-06 — Risk Acceptance Criteria — Trondheim",
+    "section": "workshop-2023-06-trondheim",
     "section_order": "2023-06",
     "title": "Safety Targets for Probabilistic Safety Analysis for Swiss Nuclear Power Plants",
     "date": "2023-06",
@@ -1611,7 +1611,7 @@
   {
     "id": "work-2603115ecf9b",
     "group": "events",
-    "section": "2023-06 — Risk Acceptance Criteria — Trondheim",
+    "section": "workshop-2023-06-trondheim",
     "section_order": "2023-06",
     "title": "Risk Acceptance Criteria — group discussion results",
     "date": "2023-06",
@@ -1634,7 +1634,7 @@
   {
     "id": "work-a7b9af733e21",
     "group": "events",
-    "section": "2023-06 — Risk Acceptance Criteria — Trondheim",
+    "section": "workshop-2023-06-trondheim",
     "section_order": "2023-06",
     "title": "Engineering methods and practical examples … and beyond",
     "date": "2023-06",
@@ -1657,7 +1657,7 @@
   {
     "id": "work-c46a00d0ace8",
     "group": "events",
-    "section": "2024-05 — JCSS meeting and anniversary workshop — Prague",
+    "section": "workshop-2024-05-prague",
     "section_order": "2024-05",
     "title": "Structural Safety: Past Advancements and Future Challenges — workshop information",
     "date": "2024-05",
@@ -1692,7 +1692,7 @@
   {
     "id": "work-57f58e532122",
     "group": "events",
-    "section": "2024-12 — Time-variant Reliability Analysis — Munich",
+    "section": "workshop-2024-12-munich",
     "section_order": "2024-12",
     "title": "Time-variant Reliability Analysis: Old Challenges and New Solutions — invitation and preliminary programme",
     "date": "2024-12",
@@ -1715,7 +1715,7 @@
   {
     "id": "work-e367d5b97aee",
     "group": "events",
-    "section": "2025-05 — Managing Structural Safety — London",
+    "section": "workshop-2025-05-london",
     "section_order": "2025-05",
     "title": "Managing Structural Safety — invitation and preliminary programme",
     "date": "2025-05",
@@ -1738,7 +1738,7 @@
   {
     "id": "work-2efa3bd7c605",
     "group": "events",
-    "section": "2025-06 — Uncertain Climate Futures — Copenhagen",
+    "section": "workshop-2025-06-copenhagen",
     "section_order": "2025-06",
     "title": "Uncertain Climate Futures — workshop information",
     "date": "2025-06",
@@ -1767,7 +1767,7 @@
   {
     "id": "work-ef986a806e44",
     "group": "events",
-    "section": "2025-10 — Global Reliability of Structures & Code Calibration — Tongji",
+    "section": "workshop-2025-10-shanghai",
     "section_order": "2025-10",
     "title": "Global Reliability of Structures & Code Calibration — workshop announcement",
     "date": "2025-10",
@@ -1790,7 +1790,7 @@
   {
     "id": "work-a74473fda513",
     "group": "events",
-    "section": "2026-04 — JCSS meeting and Assessment of Existing Structures — Aalborg",
+    "section": "workshop-2026-04-aalborg",
     "section_order": "2026-04",
     "title": "Assessment of Existing Structures — draft programme",
     "date": "2026-04",
@@ -1813,7 +1813,7 @@
   {
     "id": "work-c6b6012c1cea",
     "group": "events",
-    "section": "2026-10 — JCSS meeting and Societal Preferences on Risk Acceptance — Waterloo",
+    "section": "workshop-2026-10-waterloo",
     "section_order": "2026-10",
     "title": "Societal Preferences on Risk Acceptance — preliminary programme",
     "date": "2026-10",

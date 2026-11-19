@@ -74,7 +74,8 @@ def catalogue_data(source_directory):
     root = Path(source_directory)
     entries = json.loads((root / 'catalogue/entries.json').read_text(encoding='utf-8'))
     works = json.loads((root / 'catalogue/works.json').read_text(encoding='utf-8'))
-    return entries, works
+    workshops = json.loads((root / 'catalogue/workshops.json').read_text(encoding='utf-8'))
+    return entries, works, workshops
 
 
 def enrich_page(app, pagename, templatename, context, doctree):
@@ -99,8 +100,8 @@ def enrich_page(app, pagename, templatename, context, doctree):
                 permalink.decompose()
             return contents
         context['generate_toc_html'] = contents_tree
-    entries, works = catalogue_data(str(app.srcdir))
-    groups = {'reports': 'Reports and guidance', 'events': 'Events and meetings',
+    entries, works, workshops = catalogue_data(str(app.srcdir))
+    groups = {'reports': 'Reports and guidance', 'events': 'Workshop archive',
               'education': 'Education', 'notices': 'Notices'}
     by_file = {entry['local_file']: entry for entry in entries}
     reader_work = None
@@ -127,6 +128,10 @@ def enrich_page(app, pagename, templatename, context, doctree):
         breadcrumbs.append({'label': 'Reading edition', 'href': ''})
         label = 'Back to webinar session' if reader_work['page'].endswith('webinars-2022-2023') else 'Back to catalogue entry'
         context['library_return'] = {'label': label, 'href': relative(reader_work['page']) + '#' + reader_work['id']}
+        if group == 'events':
+            workshop_id = reader_work['section']
+            context['library_return'] = {'label': workshops[workshop_id]['heading'],
+                                         'href': relative('catalogue/events') + '#' + workshop_id}
     elif pagename == 'catalogue/webinars-2022-2023':
         breadcrumbs += [{'label': 'Education', 'href': relative('catalogue/education')},
                         {'label': 'Webinar series', 'href': ''}]
@@ -210,23 +215,25 @@ def write_catalogue_search(app, exception):
     """Emit a static work index; retain the independent full-text index."""
     if exception is not None or app.builder.format != 'html':
         return
-    entries, works = catalogue_data(str(app.srcdir))
+    entries, works, workshops = catalogue_data(str(app.srcdir))
     by_file = {entry['local_file']: entry for entry in entries}
     records = []
     for work in works:
         authors = work['authors'] or work.get('organisation', '')
+        workshop = workshops.get(work['section'], {})
+        activity = workshop.get('heading', work['section'])
         editors = work.get('editors', '')
         resources = [resource['label'].removeprefix('Download ') for resource in work['resources']]
         formats = sorted({Path(by_file[resource['file']]['original']).suffix[1:].upper() for resource in work['resources']})
         records.append({'id': work['id'], 'title': work['title'], 'date': work['date'],
                         'authors': authors, 'editors': editors, 'status': work.get('status', ''),
-                        'date_kind': work['date_kind'], 'type': work['document_type'], 'activity': work['section'],
+                        'date_kind': work['date_kind'], 'type': work['document_type'], 'activity': activity,
                         'formats': formats, 'file_count': len(resources),
                         'has_reader': any(by_file[resource['file']]['reader'] for resource in work['resources']),
                         'resources': resources, 'href': work['page'] + '.html#' + work['id'],
                         'search_text': ' '.join([work['title'], authors, editors, work.get('organisation', ''),
                                                 work.get('status', ''), work['date'], work['document_type'],
-                                                work['section'], work.get('note', ''), *resources, *formats])})
+                                                activity, workshop.get('topic', ''), work.get('note', ''), *resources, *formats])})
     target = Path(app.outdir) / '_static/library-search-index.json'
     literature = json.loads((Path(app.srcdir) / 'catalogue/literature.json').read_text(encoding='utf-8'))
     for publication in literature:
