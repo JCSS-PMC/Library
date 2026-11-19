@@ -1,0 +1,680 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="2 Framework for risk assessment. JCSS reports, source documents, and publication information." />
+    <title>2 Framework for risk assessment &#8212; JCSS Library</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=55c26ed414f5f8a31ebb" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=55c26ed414f5f8a31ebb" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css?v=3c74b3bc" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css?v=9c3e77be" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../../_static/report-math.css?v=1bf7b00a" />
+    <link rel="stylesheet" type="text/css" href="../../_static/document-contents.css?v=29a8760c" />
+    <link rel="stylesheet" type="text/css" href="../../_static/source-typesetting.css?v=f9453141" />
+    <link rel="stylesheet" type="text/css" href="../../_static/library-navigation.css?v=68b558c6" />
+  
+  <!-- So that users can add custom icons -->
+  <script defer src="../../_static/scripts/fontawesome.js?digest=55c26ed414f5f8a31ebb"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=55c26ed414f5f8a31ebb" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=55c26ed414f5f8a31ebb" />
+
+    <script src="../../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?v=fab101a9"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js?v=b8b12719"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/design-tabs.js?v=f930bc37"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/sidebar-toggle.js?v=14d61ad9"></script>
+    <script src="../../_static/native-contents.js?v=34ecfc28"></script>
+    <script src="../../_static/library-search.js?v=ef1fec92"></script>
+    <script src="../../_static/library-theme.js?v=f34f62cd"></script>
+    <script src="../../_static/release-navigation.js?v=493420fb"></script>
+    <link rel="canonical" href="https://jcss-pmc.github.io/Library/publications/2008-06-risk-assessment-in-engineering/02-framework-for-risk-assessment.html" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="3 System modeling" href="03-system-modeling.html" />
+    <link rel="prev" title="1 Introduction" href="01-introduction.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  
+    
+    <script src="../../_static/searchtools.js"></script>
+    <script src="../../_static/language_data.js"></script>
+    <script src="../../searchindex.js"></script>
+  
+  </head>
+  <body data-default-mode="">
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+  
+  
+  
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header id="pst-header" class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../_static/jcss.png" class="logo__image only-light" alt="JCSS Library - Home"/>
+    <img src="../../_static/jcss.png" class="logo__image only-dark pst-js-only" alt="JCSS Library - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../intro.html">
+                    JCSS Library
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Library</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../../catalogue/reports.html">Reports and guidance</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2 current active has-children"><a class="reference internal" href="index.html">Risk Assessment in Engineering</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="01-introduction.html">1 Introduction</a></li>
+<li class="toctree-l3 current active"><a class="current reference internal" href="#">2 Framework for risk assessment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="03-system-modeling.html">3 System modeling</a></li>
+<li class="toctree-l3"><a class="reference internal" href="04-risk-assessment.html">4 Risk Assessment</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2"><a class="reference internal" href="../2008-11-theoretical-framework-for-risk-assessment-and-evaluation/index.html">Theoretical Framework for Risk Assessment and Evaluation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../2008-11-terminology/index.html">Terminology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../2008-11-risk-acceptance-criteria/index.html">Risk Acceptance Criteria</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../2008-11-the-philosophy-behind-the-life-quality-index-and-empirical-verification/index.html">The Philosophy Behind the Life Quality Index and Empirical Verification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../2025-04-protocol-for-risk-informed-governance-and-communication/index.html">Protocol for Risk-Informed Governance and Communication</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../2025-06-17-uncertain-climate-futures-consensus-statement/index.html">Consensus Statement</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="../../catalogue/literature.html">Special issues and papers</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../catalogue/events.html">Events and meetings</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../2023-06-schubert-engineering-methods-and-practical-examples-extended-abstract/index.html">Engineering methods and practical examples … and beyond</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../2023-06-moan-risk-analysis-and-acceptance-for-floating-bridges-extended-abstract/index.html">Risk analysis and acceptance for floating bridges, with emphasis on ship impact hazards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../2023-06-kohl-risk-based-decision-making-in-tunnel-safety-extended-abstract/index.html">B. Kohl: Risk-based decision-making in tunnel safety</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../2020-01-ship-collision-risk-workshop-conclusions/index.html">JCSS Workshop on Ship Collision Risk Assessment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../2012-08-origin-and-development-of-the-lqi/index.html">Origin and Development of the LQI</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../catalogue/education.html">Education</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../catalogue/webinars-2022-2023.html">Risk, resilience and sustainability</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../2022-09-from-science-to-practice-identified-gaps/index.html">From Science to Practice; List of identified Gaps</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../catalogue/notices.html">Publication notices and press releases</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../2018-08-greenhouse-gas-emissions-structural-design-codes-overlooked/index.html">GREENHOUSE GAS EMISSIONS – STRUCTURAL DESIGN CODES OVERLOOKED</a></li>
+</ul>
+</details></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+  
+    
+      
+      
+      
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/JCSS-PMC/Library" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/JCSS-PMC/Library/edit/main/publications/2008-06-risk-assessment-in-engineering/02-framework-for-risk-assessment.md" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/JCSS-PMC/Library/issues/new?title=Issue%20on%20page%20%2Fpublications/2008-06-risk-assessment-in-engineering/02-framework-for-risk-assessment.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+    
+  
+    
+    <div class="dropdown dropdown-download-buttons">
+      <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false" aria-label="Downloads" title="Downloads">
+        <i class="fas fa-download" aria-hidden="true"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="btn btn-sm dropdown-item library-original" href="../../_downloads/c1b8bacd3508e3a0f39ee662b1f35dfd/source.pdf"
+               download="jcss-publications-2008-06-risk-assessment-in-engineering-principles-system-representation-and-risk-criteria.pdf" aria-label="Download original PDF: Risk Assessment in Engineering: Principles, System Representation &amp; Risk Criteria">
+          <span class="btn__icon-container"><i class="fas fa-file-pdf" aria-hidden="true"></i></span>
+          <span class="btn__text-container">Original PDF</span>
+        </a></li>
+        
+          
+          
+          <li><a href="../../_sources/publications/2008-06-risk-assessment-in-engineering/02-framework-for-risk-assessment.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">Markdown source</span>
+</a>
+</li>
+        
+          
+          
+          <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">Print this page</span>
+</button>
+</li>
+        
+      </ul>
+    </div>
+    
+  
+    
+      
+      
+      
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button pst-navbar-icon"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+    
+  
+  
+<button type="button" class="btn btn-sm nav-link pst-navbar-icon library-theme-switch pst-js-only"
+        aria-label="Switch to dark mode" title="Switch to dark mode">
+  <i class="fa-solid fa-moon fa-lg" data-library-theme-icon="dark" aria-hidden="true"></i>
+  <i class="fa-solid fa-sun fa-lg" data-library-theme-icon="light" aria-hidden="true" hidden></i>
+</button>
+  
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+  <button class="sidebar-toggle secondary-toggle btn btn-sm pst-navbar-icon" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+  
+  <nav class="library-context" aria-label="Breadcrumb">
+    <ol>
+      
+      <li><a href="../../intro.html">Library</a></li>
+      
+      <li><a href="../../catalogue/reports.html">Reports and guidance</a></li>
+      
+      <li><span aria-current="page">Reading edition</span></li>
+      
+    </ol>
+    <a class="library-return" href="../../catalogue/reports.html#work-1a367abd5baf">Back to catalogue entry</a>
+  </nav>
+  
+  
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>2 Framework for risk assessment</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Document contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="document-contents pst-show_toc_level nav section-nav flex-column"><li class="toc-h1 nav-item toc-entry"><a class="nav-link" href="index.html">Risk Assessment in Engineering</a><ul class="pst-show_toc_level nav section-nav flex-column"><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="index.html#dedication">Dedication</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="index.html#preface">Preface</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="index.html#contents">Contents</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="index.html#source-and-citation">Source and citation</a></li></ul></li><li class="toc-h1 nav-item toc-entry"><a class="nav-link" href="01-introduction.html">1 Introduction</a></li><li class="toc-h1 nav-item toc-entry"><a aria-current="page" class="document-current-page nav-link" href="#">2 Framework for risk assessment</a><ul class="pst-show_toc_level nav section-nav flex-column"><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="#engineering-risk-assessment-and-decision-making">2.1 Engineering Risk assessment and decision making</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="#decisions-and-decision-maker">2.2 Decisions and decision maker</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="#attributes-of-decision-outcomes">2.3 Attributes of decision outcomes</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="#preferences-among-attributes-utility">2.4 Preferences among attributes - utility</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="#constraints-on-decision-making">2.5 Constraints on decision making</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="#feasibility-and-optimality">2.6 Feasibility and optimality</a></li></ul></li><li class="toc-h1 nav-item toc-entry"><a class="nav-link" href="03-system-modeling.html">3 System modeling</a><ul class="pst-show_toc_level nav section-nav flex-column"><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="03-system-modeling.html#knowledge-and-uncertainty">3.1 Knowledge and uncertainty</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="03-system-modeling.html#system-representation">3.2 System representation</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="03-system-modeling.html#exposures-and-hazards">3.3 Exposures and hazards</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="03-system-modeling.html#consequences">3.4 Consequences</a><ul class="pst-show_toc_level nav section-nav flex-column"><li class="toc-h3 nav-item toc-entry"><a class="nav-link" href="03-system-modeling.html#vulnerability">3.4.1 Vulnerability</a></li><li class="toc-h3 nav-item toc-entry"><a class="nav-link" href="03-system-modeling.html#robustness">3.4.2 Robustness</a></li></ul></li></ul></li><li class="toc-h1 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html">4 Risk Assessment</a><ul class="pst-show_toc_level nav section-nav flex-column"><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#analysis-and-quantification-of-systems-risk">4.1 Analysis and quantification of systems risk</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#indicators-of-risk">4.2 Indicators of risk</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#comparison-of-decision-alternatives">4.3 Comparison of decision alternatives</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#risk-perception">4.4 Risk perception</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#risk-reduction-measures">4.5 Risk reduction measures</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#acceptance-of-risk">4.6 Acceptance of risk</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#sustainable-discounting">4.7 Sustainable discounting</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#aggregation-and-portfolio-loss-assessment">4.8 Aggregation and portfolio loss assessment</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#risk-transfer">4.9 Risk transfer</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#risk-communication">4.10 Risk communication</a></li></ul></li></ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <!-- source-text-start -->
+<section class="tex2jax_ignore mathjax_ignore" id="framework-for-risk-assessment">
+<span id="ra2008-section-2"></span><h1>2 Framework for risk assessment<a class="headerlink" href="#framework-for-risk-assessment" title="Link to this heading">#</a></h1>
+<section id="engineering-risk-assessment-and-decision-making">
+<span id="ra2008-section-2-1"></span><h2>2.1 Engineering Risk assessment and decision making<a class="headerlink" href="#engineering-risk-assessment-and-decision-making" title="Link to this heading">#</a></h2>
+<p>The development and management of the societal infrastructure is a central task for the continued success of society. The decision processes involved in this task concern all aspects of managing and performing the planning, investigations, designing, manufacturing, execution, operations, maintenance and decommissioning of objects of societal infrastructure, such as traffic infra-structure, housing, power generation, power distribution systems and water distribution systems. The main objective from a societal perspective by such activities is to improve the quality of life of the individuals of society both for the present and the future generations. From the perspective of individual projects the objective may simply be to obtain a maximal positive economic return of investments.</p>
+<p>Decision making for the purpose of assessing and managing risks should be seen relative to the occurrence of hazards; i.e. risk management in the situations before, during and after the events of hazards. This is because the possible decision alternatives or boundary conditions for decision making change over the corresponding time frame. Before a hazard occurs the issue of concern is to optimize investments into so-called preventive measures such as e.g. protecting societal assets, adequately designing and strengthening societal infrastructure as well as developing preparedness and emergency strategies. During the event of a hazard the issue is to limit consequences by containing damages and by means of rescue, evacuation and aid actions. After a hazard event, the situation is to some degree comparable to the situation before the event, however, the issue here is to decide on the rehabilitation of the losses and functionalities and to reconsider strategies for prevention measures. In <a class="reference internal" href="#ra2008-figure-1"><span class="std std-ref">Figure 1</span></a> the different decision situations and the focus of earthquake risk management is illustrated as an example.</p>
+<figure id="ra2008-figure-1">
+<p><img alt="Figure 1 Decision situations for management of earthquake risks." src="../../_images/figure-01.png"/></p>
+<figcaption>Figure 1 Decision situations for management of earthquake risks.</figcaption>
+</figure>
+<p>If all aspects of the decision problem would be known with certainty, the identification of optimal decisions would be straightforward by means of traditional cost-benefit analysis. However, due to the fact that our understanding of the problems involved in the decision problems often is far less than perfect and that we are only able to model the involved processes of physical phenomena as well as human interactions in rather uncertain terms, the decision problems in engineering is subject to significant uncertainty. Due to this, it is not possible to assess the outcomes of decisions in certain terms. There is no way to assess with certainty the consequences resulting from the decisions we take. However, what can be assessed are the risks associated with the different decision alternatives. Based on risk assessments, decision alternatives may thereby be consistently ranked. If the concept of risk as the simple product between probability of occurrence of an event with consequences and the consequence of the event is widened to include also the aspects of the benefit achieved from the decisions, then risk may be related directly to the concept of utility from the economic decision theory and a whole methodical framework is made available for the consistent identification of optimal decisions. This framework is considered the theoretical basis for risk based decision making and the following chapters are concerned about the application of this for the purpose of risk management in engineering.</p>
+</section>
+<section id="decisions-and-decision-maker">
+<span id="ra2008-section-2-2"></span><h2>2.2 Decisions and decision maker<a class="headerlink" href="#decisions-and-decision-maker" title="Link to this heading">#</a></h2>
+<p>A decision may be understood as a committed allocation of resources. The decision maker is an authority or person who has authority over the resources being allocated and responsibility for the consequences of the decision to third parties. The intention of the decision maker is to meet some objective, the value of which is at least in balance with the resources allocated by the decision. The decision maker faces the problem of choosing between a set of decision alternatives which may lead to different consequences in terms of losses and benefits. The objective aimed for by the decision making represents the preference of the decision maker in weighing the different attributes which may be associated with the possible consequences of the decision alternatives. It is thus clear that the formulation of the decision problem will depend very much on the decision maker. Who are the stakeholder, the beneficiaries and the responsible parties? Each possible decision maker will have different viewpoints in regard to preferences, attributes and objectives. It is important to identify the decision maker, since the selection and weighting of attributes must be made on behalf of the decision maker. Engineering decision making and risk assessment for the management of hazards is usually performed on behalf of society. It is thus useful to consider a society as an entity of people for which common preferences may be identified, exogenous boundary conditions are the same and which share common resources. It is clear that this definition may be applied to unions of states or countries, individual states and countries as well as local communities depending on the context of the decision making, however, it is seen that the geographical limitations are not essential, even though they often in reality are implicitly given by the other attributes. Considering a state or a country as a society it may be realized that such a society may comprise a hierarchical structure of societies defined at lower levels, such as cantons, municipalities and communities; each society with their set of attributes partly defined through the societies at higher level.</p>
+<p>The following represents six general decision making levels. However, a further specification of the possible decision makers may depend on the political structure of the considered country.</p>
+<ol class="arabic simple">
+<li><p>Supranational authority</p></li>
+<li><p>National authority and/or regulatory agencies</p></li>
+<li><p>International private company</p></li>
+<li><p>Local authority</p></li>
+<li><p>Private owner</p></li>
+<li><p>Private operator</p></li>
+<li><p>Specific stakeholders</p></li>
+</ol>
+<p>The decision might not succeed in meeting the objective; one might allocate resources and yet, for a number of reasons, not achieve the objectives. The decision maker might have several conflicting objectives. The degree by which an objective is achieved is measured in terms of attributes (or criteria).</p>
+</section>
+<section id="attributes-of-decision-outcomes">
+<span id="ra2008-section-2-3"></span><h2>2.3 Attributes of decision outcomes<a class="headerlink" href="#attributes-of-decision-outcomes" title="Link to this heading">#</a></h2>
+<p>There are essentially three types of attributes - natural, constructed and proxy. Natural attributes are those having a common interpretation to everyone (cost in dollars, number of fatalities and other measurable quantities). For many important objectives, such as improving image and increasing international prestige, it is difficult or impossible to come up with natural attributes. The attributes to be used must essentially define what is meant by the objective. Constructed attributes may be used for this, these are made up of verbal descriptions of several distinct levels of impact that directly indicate the degree to which the associated objective is achieved and a numerical indicator is assigned to these levels. Examples of constructed attributes turning into natural attributes with time and use are the gross national product GNP (aggregate of several factors to indicate economic activity of a country), the Dow Jones industrial average etc. Finally, there are cases where it is difficult to identify either type of attribute for a given objective. In these cases indirect measurements may be used. The attributes used to indicate the degree to which the objective is achieved are called proxy attributes. When an attribute is used as proxy attribute for a fundamental objective, levels of that attribute are valued only for their perceived relationship to the achievement of that fundamental objective. The decision maker will make decisions consistent with her/his values, which are those things that are important to her/him, especially those that are relevant to her/his decision. A common value is money, according to which the decision maker will attempt to increase his wealth. Others might be personal, such as happiness or security, or social, such as fairness. .</p>
+</section>
+<section id="preferences-among-attributes-utility">
+<span id="ra2008-section-2-4"></span><h2>2.4 Preferences among attributes - utility<a class="headerlink" href="#preferences-among-attributes-utility" title="Link to this heading">#</a></h2>
+<p>Having determined the set of attributes, the objectives must be quantified with a value/utility model. This is done by means of converting the attribute values to a value scale by means of judgment of relative value or preference strength. The value scale is often referred to as a utility function. In some cases it may not appear obvious how to directly transfer different attribute values into one common value scale. To overcome this apparent problem, it is possible to consider multi-attribute decision problems. However, it is emphasized that the solution to a multi-attribute will imply a weighing of the different attributes against each other and more transparency in the decision process is thus achieved by making this weighing directly.</p>
+<p>The multi-attribute value problem is a problem of value trade-offs. These trade-offs can be systematically structured in utility functions. These are scalar valued functions defined on the consequence space, which serve to compare various levels of the different attributes indirectly. Given the utility function the decision maker’s problem is to choose that alternative from the space of feasible alternatives, which maximizes the expected utility.</p>
+<p>The expected utility is used as a relative measure, making it possible to choose between various actions. The action with the largest expected utility will be chosen from among the possible actions. Thus, no absolute criterion for the acceptability of the considered action is given from decision theory.</p>
+</section>
+<section id="constraints-on-decision-making">
+<span id="ra2008-section-2-5"></span><h2>2.5 Constraints on decision making<a class="headerlink" href="#constraints-on-decision-making" title="Link to this heading">#</a></h2>
+<p>A decision analysis as such is a relative comparison of the defined alternatives from which the best alternative will be recommended. However, this does not ensure that the risk of the best alternative is acceptable with respect to e.g. the safety of the individual. In order to secure that e.g. the level of safety for persons is not violated, the corresponding risk can be calculated and checked against specified maximum levels. These levels should be regarded as basic constraints on the decision-making process.</p>
+</section>
+<section id="feasibility-and-optimality">
+<span id="ra2008-section-2-6"></span><h2>2.6 Feasibility and optimality<a class="headerlink" href="#feasibility-and-optimality" title="Link to this heading">#</a></h2>
+<p>Different decision alternatives will imply different potential losses and potential incomes. The representation of risk in terms of expected utility facilitates decision making in correspondence with the preferences of the decision maker in accordance with the decision theory. In <a class="reference internal" href="#ra2008-figure-2"><span class="std std-ref">Figure 2</span></a> an illustration is given of the variation of utility, measured in terms of expected benefit of an activity, as a function of different decision alternatives.</p>
+<figure id="ra2008-figure-2">
+<p><img alt="Figure 2. Illustration of variation of utility (expected benefit) as a function of different decision alternatives." src="../../_images/figure-02.png"/></p>
+<figcaption>Figure 2. Illustration of variation of utility (expected benefit) as a function of different decision alternatives.</figcaption>
+</figure>
+<p>Decisions which do not yield a positive benefit should clearly not be chosen. Optimally, the decision yielding the largest utility is selected, but, as outlined in the foregoing, there could be constraints on the decision alternatives which are not explicitly included in the formulation of the utility function. In these cases not all feasible decision may be acceptable. This is considered in more detail in <a class="reference internal" href="04-risk-assessment.html#ra2008-section-4-5"><span class="std std-ref">Section 4.5</span></a>.</p>
+<!-- source-text-end -->
+</section>
+</section>
+<script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./publications\2008-06-risk-assessment-in-engineering"
+        },
+        predefinedOutput: true
+    }
+    </script>
+<script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="01-introduction.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">1 Introduction</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="03-system-modeling.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">3 System modeling</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item"><div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Document contents
+  </div>
+  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="document-contents pst-show_toc_level nav section-nav flex-column"><li class="toc-h1 nav-item toc-entry"><a class="nav-link" href="index.html">Risk Assessment in Engineering</a><ul class="pst-show_toc_level nav section-nav flex-column"><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="index.html#dedication">Dedication</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="index.html#preface">Preface</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="index.html#contents">Contents</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="index.html#source-and-citation">Source and citation</a></li></ul></li><li class="toc-h1 nav-item toc-entry"><a class="nav-link" href="01-introduction.html">1 Introduction</a></li><li class="toc-h1 nav-item toc-entry"><a aria-current="page" class="document-current-page nav-link" href="#">2 Framework for risk assessment</a><ul class="pst-show_toc_level nav section-nav flex-column"><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="#engineering-risk-assessment-and-decision-making">2.1 Engineering Risk assessment and decision making</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="#decisions-and-decision-maker">2.2 Decisions and decision maker</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="#attributes-of-decision-outcomes">2.3 Attributes of decision outcomes</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="#preferences-among-attributes-utility">2.4 Preferences among attributes - utility</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="#constraints-on-decision-making">2.5 Constraints on decision making</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="#feasibility-and-optimality">2.6 Feasibility and optimality</a></li></ul></li><li class="toc-h1 nav-item toc-entry"><a class="nav-link" href="03-system-modeling.html">3 System modeling</a><ul class="pst-show_toc_level nav section-nav flex-column"><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="03-system-modeling.html#knowledge-and-uncertainty">3.1 Knowledge and uncertainty</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="03-system-modeling.html#system-representation">3.2 System representation</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="03-system-modeling.html#exposures-and-hazards">3.3 Exposures and hazards</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="03-system-modeling.html#consequences">3.4 Consequences</a><ul class="pst-show_toc_level nav section-nav flex-column"><li class="toc-h3 nav-item toc-entry"><a class="nav-link" href="03-system-modeling.html#vulnerability">3.4.1 Vulnerability</a></li><li class="toc-h3 nav-item toc-entry"><a class="nav-link" href="03-system-modeling.html#robustness">3.4.2 Robustness</a></li></ul></li></ul></li><li class="toc-h1 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html">4 Risk Assessment</a><ul class="pst-show_toc_level nav section-nav flex-column"><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#analysis-and-quantification-of-systems-risk">4.1 Analysis and quantification of systems risk</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#indicators-of-risk">4.2 Indicators of risk</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#comparison-of-decision-alternatives">4.3 Comparison of decision alternatives</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#risk-perception">4.4 Risk perception</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#risk-reduction-measures">4.5 Risk reduction measures</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#acceptance-of-risk">4.6 Acceptance of risk</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#sustainable-discounting">4.7 Sustainable discounting</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#aggregation-and-portfolio-loss-assessment">4.8 Aggregation and portfolio loss assessment</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#risk-transfer">4.9 Risk transfer</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#risk-communication">4.10 Risk communication</a></li></ul></li></ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Joint Committee on Structural Safety
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2026.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../../_static/scripts/bootstrap.js?digest=55c26ed414f5f8a31ebb"></script>
+<script defer src="../../_static/scripts/pydata-sphinx-theme.js?digest=55c26ed414f5f8a31ebb"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+/* Keep the source's long equations readable in narrow PMC reader columns.
+   The theme's reversed flex row clips the start of explicitly tagged equations.
+   Scope this repair to the converted 2008 reports; preserve the theme's type and colours. */
+.math[id^="ra2008-eq-"],
+.math[id^="equation-framework2008-equation-"],
+.math[id^="equation-rac2008-equation-"] {
+  display: block;
+  overflow-x: auto;
+}

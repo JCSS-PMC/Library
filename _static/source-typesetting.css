@@ -1,0 +1,158 @@
+/* Retain the source's mathematical typography at the surrounding text scale. */
+.bd-article :is(h1, h2, h3, h4) {
+  overflow-wrap: anywhere;
+}
+
+.bd-article img.source-inline-math {
+  display: inline-block;
+  max-width: none;
+  margin: 0;
+  vertical-align: -0.25em;
+  background: white;
+  border-radius: 0;
+  padding: 0;
+  mix-blend-mode: multiply;
+}
+
+.source-display {
+  margin: 1.25rem 0;
+  overflow-x: auto;
+}
+
+.source-display img {
+  width: var(--source-width);
+  max-width: 100%;
+  height: auto;
+  background: white;
+  border-radius: 0;
+  padding: 0;
+}
+
+/* Keep the source note numbering accessible without interrupting body prose. */
+.bd-article aside[role="doc-footnote"] {
+  margin: 1.25rem 0;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--pst-color-border);
+}
+
+.bd-article :is([role="doc-footnote"], [role="doc-noteref"]) {
+  scroll-margin-top: 5rem;
+}
+
+html[data-theme="dark"] .source-math img,
+html[data-theme="dark"] .bd-article img.source-inline-math {
+  filter: invert(1);
+  mix-blend-mode: screen;
+}
+
+.source-math img {
+  mix-blend-mode: multiply;
+}
+
+.source-display p {
+  margin-bottom: 0;
+}
+
+/* Long inline expressions retain their size without widening a mobile page. */
+.bd-article p:has(> img.source-inline-math) {
+  overflow-x: auto;
+}
+
+/* Native transcriptions keep wide equations and tables within the reader. */
+.bd-article .math:has(mjx-container[display="true"]),
+.native-source-content {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+.native-source-content table {
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  margin: 0 auto 0.5rem;
+}
+
+.native-source-content :is(th, td) {
+  border: 1px solid var(--pst-color-border);
+  padding: 0.45rem 0.65rem;
+  vertical-align: middle;
+}
+
+.native-source-content th {
+  font-weight: 600;
+  min-width: 5rem;
+}
+
+.bd-article p:has(> .math) {
+  overflow-x: auto;
+}
+/* The gaps source uses three colours as category information. Keep their hue
+   families with readable contrast in both PMC themes; titles name the category. */
+.gap-scientific { color: #b52323; }
+.gap-regulatory { color: #0066a6; }
+.gap-educational { color: #436c20; }
+html[data-theme="dark"] .gap-scientific { color: #ff9292; }
+html[data-theme="dark"] .gap-regulatory { color: #78c3ff; }
+html[data-theme="dark"] .gap-educational { color: #abd581; }
+.source-gaps > li { margin-bottom: 1em; }
+
+/* Preserve meaningful source emphasis with legible colours in both themes. */
+.source-slide-red { color: #b52323; }
+.source-slide-green { color: #436c20; }
+.source-slide-orange { color: #a64e00; }
+html[data-theme="dark"] .source-slide-orange { color: #ffb56b; }
+.source-highlight,
+.source-target-table tbody tr:nth-child(2) > :nth-child(3),
+.bd-article mark {
+  background: #fff29a;
+  color: #202020;
+}
+.source-highlight { padding: .75rem 1rem; margin-block: 1rem; }
+.source-highlight > :last-child { margin-bottom: 0; }
+html[data-theme="dark"] .source-slide-red { color: #ff9292; }
+html[data-theme="dark"] .source-slide-green { color: #abd581; }
+.source-slide-blue { color: #2f5291; }
+.source-slide-grey { color: #666; }
+html[data-theme="dark"] .source-slide-blue { color: #91b7f4; }
+html[data-theme="dark"] .source-slide-grey { color: #c4c4c4; }
+.source-objections,
+.source-recommendation {
+  border: 2px solid #b52323;
+  padding: .75rem 1rem;
+  margin-block: .75rem;
+}
+.source-recommendation { border-color: #436c20; }
+.source-objections > ul,
+.source-recommendation > ul { margin-bottom: 0; }
+html[data-theme="dark"] .source-objections { border-color: #ff9292; }
+html[data-theme="dark"] .source-recommendation { border-color: #abd581; }
+/* Native MathJax keeps the source's selective red ellipse without a raster formula. */
+mjx-container[display="true"]:has(.source-math-emphasis) { padding-block: .4rem; }
+mjx-math .source-math-emphasis {
+  outline: 1px solid #b52323;
+  outline-offset: 3px;
+  border-radius: 50%;
+}
+html[data-theme="dark"] mjx-math .source-math-emphasis { outline-color: #ff9292; }
+.source-reliability-table tbody tr:first-child > *,
+.source-reliability-table tr > :last-child {
+  outline: 2px solid #b52323;
+  outline-offset: -2px;
+}
+html[data-theme="dark"] .source-reliability-table tbody tr:first-child > *,
+html[data-theme="dark"] .source-reliability-table tr > :last-child {
+  outline-color: #ff9292;
+}
+
+/* Preserve the source's threshold rows and boxed scope in the new readers. */
+.unmanning-16 tbody tr:nth-child(-n+6) > *,
+.unmanning-17 tbody tr:nth-child(-n+5) > * {
+  background: #ffb4b4;
+  color: #202020;
+}
+.source-risk-scope {
+  border: 2px solid #d28b00;
+  padding: .75rem 1rem;
+  margin-block: 1rem;
+}

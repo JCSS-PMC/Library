@@ -1,0 +1,715 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="3 System modeling. JCSS reports, source documents, and publication information." />
+    <title>3 System modeling &#8212; JCSS Library</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=55c26ed414f5f8a31ebb" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=55c26ed414f5f8a31ebb" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css?v=3c74b3bc" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css?v=9c3e77be" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../../_static/report-math.css?v=1bf7b00a" />
+    <link rel="stylesheet" type="text/css" href="../../_static/document-contents.css?v=29a8760c" />
+    <link rel="stylesheet" type="text/css" href="../../_static/source-typesetting.css?v=f9453141" />
+    <link rel="stylesheet" type="text/css" href="../../_static/library-navigation.css?v=68b558c6" />
+  
+  <!-- So that users can add custom icons -->
+  <script defer src="../../_static/scripts/fontawesome.js?digest=55c26ed414f5f8a31ebb"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=55c26ed414f5f8a31ebb" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=55c26ed414f5f8a31ebb" />
+
+    <script src="../../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../../_static/copybutton.js?v=f281be69"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?v=fab101a9"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js?v=b8b12719"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/design-tabs.js?v=f930bc37"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/sidebar-toggle.js?v=14d61ad9"></script>
+    <script src="../../_static/native-contents.js?v=34ecfc28"></script>
+    <script src="../../_static/library-search.js?v=ef1fec92"></script>
+    <script src="../../_static/library-theme.js?v=f34f62cd"></script>
+    <script src="../../_static/release-navigation.js?v=493420fb"></script>
+    <link rel="canonical" href="https://jcss-pmc.github.io/Library/publications/2008-06-risk-assessment-in-engineering/03-system-modeling.html" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="4 Risk Assessment" href="04-risk-assessment.html" />
+    <link rel="prev" title="2 Framework for risk assessment" href="02-framework-for-risk-assessment.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  
+    
+    <script src="../../_static/searchtools.js"></script>
+    <script src="../../_static/language_data.js"></script>
+    <script src="../../searchindex.js"></script>
+  
+  </head>
+  <body data-default-mode="">
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+  
+  
+  
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header id="pst-header" class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../_static/jcss.png" class="logo__image only-light" alt="JCSS Library - Home"/>
+    <img src="../../_static/jcss.png" class="logo__image only-dark pst-js-only" alt="JCSS Library - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../intro.html">
+                    JCSS Library
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Library</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../../catalogue/reports.html">Reports and guidance</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2 current active has-children"><a class="reference internal" href="index.html">Risk Assessment in Engineering</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="01-introduction.html">1 Introduction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="02-framework-for-risk-assessment.html">2 Framework for risk assessment</a></li>
+<li class="toctree-l3 current active"><a class="current reference internal" href="#">3 System modeling</a></li>
+<li class="toctree-l3"><a class="reference internal" href="04-risk-assessment.html">4 Risk Assessment</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2"><a class="reference internal" href="../2008-11-theoretical-framework-for-risk-assessment-and-evaluation/index.html">Theoretical Framework for Risk Assessment and Evaluation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../2008-11-terminology/index.html">Terminology</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../2008-11-risk-acceptance-criteria/index.html">Risk Acceptance Criteria</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../2008-11-the-philosophy-behind-the-life-quality-index-and-empirical-verification/index.html">The Philosophy Behind the Life Quality Index and Empirical Verification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../2025-04-protocol-for-risk-informed-governance-and-communication/index.html">Protocol for Risk-Informed Governance and Communication</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../2025-06-17-uncertain-climate-futures-consensus-statement/index.html">Consensus Statement</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="../../catalogue/literature.html">Special issues and papers</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../catalogue/events.html">Events and meetings</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../2023-06-schubert-engineering-methods-and-practical-examples-extended-abstract/index.html">Engineering methods and practical examples … and beyond</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../2023-06-moan-risk-analysis-and-acceptance-for-floating-bridges-extended-abstract/index.html">Risk analysis and acceptance for floating bridges, with emphasis on ship impact hazards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../2023-06-kohl-risk-based-decision-making-in-tunnel-safety-extended-abstract/index.html">B. Kohl: Risk-based decision-making in tunnel safety</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../2020-01-ship-collision-risk-workshop-conclusions/index.html">JCSS Workshop on Ship Collision Risk Assessment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../2012-08-origin-and-development-of-the-lqi/index.html">Origin and Development of the LQI</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../catalogue/education.html">Education</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../../catalogue/webinars-2022-2023.html">Risk, resilience and sustainability</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../2022-09-from-science-to-practice-identified-gaps/index.html">From Science to Practice; List of identified Gaps</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../catalogue/notices.html">Publication notices and press releases</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../2018-08-greenhouse-gas-emissions-structural-design-codes-overlooked/index.html">GREENHOUSE GAS EMISSIONS – STRUCTURAL DESIGN CODES OVERLOOKED</a></li>
+</ul>
+</details></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+  
+    
+      
+      
+      
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/JCSS-PMC/Library" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/JCSS-PMC/Library/edit/main/publications/2008-06-risk-assessment-in-engineering/03-system-modeling.md" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/JCSS-PMC/Library/issues/new?title=Issue%20on%20page%20%2Fpublications/2008-06-risk-assessment-in-engineering/03-system-modeling.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+    
+  
+    
+    <div class="dropdown dropdown-download-buttons">
+      <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false" aria-label="Downloads" title="Downloads">
+        <i class="fas fa-download" aria-hidden="true"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="btn btn-sm dropdown-item library-original" href="../../_downloads/c1b8bacd3508e3a0f39ee662b1f35dfd/source.pdf"
+               download="jcss-publications-2008-06-risk-assessment-in-engineering-principles-system-representation-and-risk-criteria.pdf" aria-label="Download original PDF: Risk Assessment in Engineering: Principles, System Representation &amp; Risk Criteria">
+          <span class="btn__icon-container"><i class="fas fa-file-pdf" aria-hidden="true"></i></span>
+          <span class="btn__text-container">Original PDF</span>
+        </a></li>
+        
+          
+          
+          <li><a href="../../_sources/publications/2008-06-risk-assessment-in-engineering/03-system-modeling.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">Markdown source</span>
+</a>
+</li>
+        
+          
+          
+          <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">Print this page</span>
+</button>
+</li>
+        
+      </ul>
+    </div>
+    
+  
+    
+      
+      
+      
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button pst-navbar-icon"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+    
+  
+  
+<button type="button" class="btn btn-sm nav-link pst-navbar-icon library-theme-switch pst-js-only"
+        aria-label="Switch to dark mode" title="Switch to dark mode">
+  <i class="fa-solid fa-moon fa-lg" data-library-theme-icon="dark" aria-hidden="true"></i>
+  <i class="fa-solid fa-sun fa-lg" data-library-theme-icon="light" aria-hidden="true" hidden></i>
+</button>
+  
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+  <button class="sidebar-toggle secondary-toggle btn btn-sm pst-navbar-icon" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+  
+  <nav class="library-context" aria-label="Breadcrumb">
+    <ol>
+      
+      <li><a href="../../intro.html">Library</a></li>
+      
+      <li><a href="../../catalogue/reports.html">Reports and guidance</a></li>
+      
+      <li><span aria-current="page">Reading edition</span></li>
+      
+    </ol>
+    <a class="library-return" href="../../catalogue/reports.html#work-1a367abd5baf">Back to catalogue entry</a>
+  </nav>
+  
+  
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>3 System modeling</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Document contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="document-contents pst-show_toc_level nav section-nav flex-column"><li class="toc-h1 nav-item toc-entry"><a class="nav-link" href="index.html">Risk Assessment in Engineering</a><ul class="pst-show_toc_level nav section-nav flex-column"><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="index.html#dedication">Dedication</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="index.html#preface">Preface</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="index.html#contents">Contents</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="index.html#source-and-citation">Source and citation</a></li></ul></li><li class="toc-h1 nav-item toc-entry"><a class="nav-link" href="01-introduction.html">1 Introduction</a></li><li class="toc-h1 nav-item toc-entry"><a class="nav-link" href="02-framework-for-risk-assessment.html">2 Framework for risk assessment</a><ul class="pst-show_toc_level nav section-nav flex-column"><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="02-framework-for-risk-assessment.html#engineering-risk-assessment-and-decision-making">2.1 Engineering Risk assessment and decision making</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="02-framework-for-risk-assessment.html#decisions-and-decision-maker">2.2 Decisions and decision maker</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="02-framework-for-risk-assessment.html#attributes-of-decision-outcomes">2.3 Attributes of decision outcomes</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="02-framework-for-risk-assessment.html#preferences-among-attributes-utility">2.4 Preferences among attributes - utility</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="02-framework-for-risk-assessment.html#constraints-on-decision-making">2.5 Constraints on decision making</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="02-framework-for-risk-assessment.html#feasibility-and-optimality">2.6 Feasibility and optimality</a></li></ul></li><li class="toc-h1 nav-item toc-entry"><a aria-current="page" class="document-current-page nav-link" href="#">3 System modeling</a><ul class="pst-show_toc_level nav section-nav flex-column"><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="#knowledge-and-uncertainty">3.1 Knowledge and uncertainty</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="#system-representation">3.2 System representation</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="#exposures-and-hazards">3.3 Exposures and hazards</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="#consequences">3.4 Consequences</a><ul class="pst-show_toc_level nav section-nav flex-column"><li class="toc-h3 nav-item toc-entry"><a class="nav-link" href="#vulnerability">3.4.1 Vulnerability</a></li><li class="toc-h3 nav-item toc-entry"><a class="nav-link" href="#robustness">3.4.2 Robustness</a></li></ul></li></ul></li><li class="toc-h1 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html">4 Risk Assessment</a><ul class="pst-show_toc_level nav section-nav flex-column"><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#analysis-and-quantification-of-systems-risk">4.1 Analysis and quantification of systems risk</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#indicators-of-risk">4.2 Indicators of risk</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#comparison-of-decision-alternatives">4.3 Comparison of decision alternatives</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#risk-perception">4.4 Risk perception</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#risk-reduction-measures">4.5 Risk reduction measures</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#acceptance-of-risk">4.6 Acceptance of risk</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#sustainable-discounting">4.7 Sustainable discounting</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#aggregation-and-portfolio-loss-assessment">4.8 Aggregation and portfolio loss assessment</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#risk-transfer">4.9 Risk transfer</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#risk-communication">4.10 Risk communication</a></li></ul></li></ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <!-- source-text-start -->
+<section class="tex2jax_ignore mathjax_ignore" id="system-modeling">
+<span id="ra2008-section-3"></span><h1>3 System modeling<a class="headerlink" href="#system-modeling" title="Link to this heading">#</a></h1>
+<p>Decision making can be seen as being equivalent to participate in a game where the decisions (moves) by the decision maker aim to optimize the utility in correspondence with the preferences the decision maker is representing. The main opponent in the game is nature, but also the individuals of society which by lack of knowledge, by accident or by malevolence may impose damage to the society must be accounted for. <a class="reference internal" href="#ra2008-figure-3"><span class="std std-ref">Figure 3</span></a> illustrates risk based decision making in a societal context from an intergenerational perspective. Within each generation, decisions have to be made, which will not only affect the concerned generation but all subsequent generations. It should be emphasized that the definition of the system in principle must include a full inventory of all potentially occurring consequences as well as all possible scenarios of events which could lead to the consequences.</p>
+<p>At an intra generational level, the constituents of the game consist of the knowledge about the system and the surrounding world, the available decision alternatives and criteria (preferences) for assessing the utility associated with the different decision alternatives.</p>
+<figure id="ra2008-figure-3">
+<p><img alt="Figure 3. Main constituents in risk based intra-/intergenerational decision analysis." src="../../_images/figure-03.png"/></p>
+<figcaption>Figure 3. Main constituents in risk based intra-/intergenerational decision analysis.</figcaption>
+</figure>
+<p>Knowing the rules (constituents) of the game, i.e. the assets, the possible consequences and how all these factors interrelate with the world outside the assets and into the future is essential for winning the game. For this reason a very significant part of risk based decision making in practice is concerned about system identification/definition as well as the identification of acceptance criteria, possible consequences and their probabilities of occurrence. Playing the game is done by “buying” physical changes in the system or “buying” knowledge about the system such that the outcome of the game may be optimized.</p>
+<p>It is instructive to consider a system to be comprised by an ensemble of interrelated constituents; buildings, structures, components, lifelines, technical equipment, procedural processes, humans and the environment. In a broad sense the constituents can also be termed assets. The individual constituents and the logical interrelation between the constituents provide the characteristics of the system. A system may be defined through any characteristic of the ensemble of the constituents which are not already a characteristic of the individual constituents; this definition follows the perspective that “more is different”. Here, as we are dealing with systems associated with uncertainty and our main concern is risk, we will focus on the risk associated with the system performance.</p>
+<p>In describing a system, a spatial and temporal representation of all constituents is required; this includes a description of the interrelations between all relevant exposures (hazards), the assets and the possible consequences. Exposures to physical objects like structures and lifelines may e.g. comprise loads caused by operation and events of nature. Exposures might also be related to events originating from procedural mishaps and generally comprise any unforeseen or unintended behavior of humans; this in turn may occur due to natural and organizationally given boundary conditions as well as malevolence. Direct consequences are related to damages on the individual constituents of the system, whereas indirect consequences are understood as any consequences beyond the direct consequences, i.e. associated with loss of system functionalities.</p>
+<p>The appropriate level of detail or scale depends on the physical or procedural characteristics or any other logical entity of the considered problem, as well as the spatial and temporal characteristics of consequences. The important issue when a system model is developed is that it facilitates a risk assessment and risk ranking of decision alternatives which is consistent with available knowledge about the system and which facilitates that risks may be updated according to knowledge which may be available at future times. Furthermore, the system representation should incorporate options for responsive decision making in the future in dependence of knowledge available then.</p>
+<p>It is furthermore important that the chosen level of detail is sufficient to facilitate a logical description of events and scenarios of events related to the constituents of the system which individually and/or in combination may lead to consequences. In addition to this, the representation of the system should accommodate, to the extent possible, for collecting information about the constituents. This facilitates that the performance of the system may be updated through knowledge about the state of the individual constituents of the system.</p>
+<section id="knowledge-and-uncertainty">
+<span id="ra2008-section-3-1"></span><h2>3.1 Knowledge and uncertainty<a class="headerlink" href="#knowledge-and-uncertainty" title="Link to this heading">#</a></h2>
+<p>Knowledge about the considered decision context is a main success factor for optimal decision making. In real world decision making lack of knowledge (or uncertainty) characterizes the normal situation and it is thus necessary to be able to represent and deal with this uncertainty in a consistent manner.</p>
+<p>In the context of societal decision making with time horizons reaching well beyond individual projects or the duration of individual decision makers, the uncertainty related to system assumptions are of tremendous importance. Rather different assumptions can be postulated in regard to future climatic changes, economic developments, long term effects of pollution etc. It is obvious that if the wrong assumptions are made, then also the wrong decisions will be reached.</p>
+<p>To the degree that uncertainties and their dependencies might influence the assessed risks it is thus important that they are accounted for in the calculation of risks. The present section provides guidelines, i.e. guiding principles as well as recommended application of these, on how to represent uncertainties in the assessment of risks.</p>
+<p>The consistent treatment of knowledge and the associated uncertainty play a key role not least when managing risks for portfolios of assets; the consistent representation of knowledge and uncertainty assures that results of risk estimates obtained for different assets and for individual hazards can be integrated and aggregated. This implies that risk assessment for e.g. objects or networks subject to several different types of hazards such as e.g. traffic accidents as well as rock-fall can be performed by integrating the different model components from the corresponding application areas with due consideration to the uncertainties which influence these models. In the same way risks assessed for two different objects may also be aggregated.</p>
+<p>If different system representations could be valid, due to lack of knowledge, it is essential to take this into account in the process of risk based decision making. This is e.g. the case when considering possible future climatic changes, when modeling extreme earthquake excitation and when assessing consequences for hazard events which go beyond historically recorded experience.</p>
+<p>There exist a large number of propositions for the characterization of different types of uncertainties. It has become standard to differentiate between uncertainties due to inherent natural variability, model uncertainties and statistical uncertainties. Whereas the first mentioned type of uncertainty is often denoted aleatory (or Type 1) uncertainty, the two latter are referred to as epistemic (or Type 2) uncertainties. However this differentiation is introduced for the purpose of setting focus on how uncertainty may be reduced rather than calling for a differentiated treatment in the decision analysis. In reality the differentiation into aleatory uncertainties and epistemic uncertainties is subject to a defined model of the considered system.</p>
+<p>For the decision analysis, the differentiation is irrelevant; a formal decision analysis necessitates that all uncertainties are considered and treated in the same manner. The relative contribution of the two components of uncertainty depends on the spatial and temporal scale applied in the model.</p>
+<p>The risk assessment should include a description of all relevant assumptions made in connection with the system identification, as well as the modeling of consequences and frequencies. The level and type of knowledge available to support the assumptions, as well as the modeling of consequences and frequencies, should be explicitly stated.</p>
+<p>In some cases information is available in terms of observations of e.g. accidents or events of natural hazards. In case such information is available it should always be attempted to utilize this for the modeling of frequencies of the events. The same applies for consequences for which experience from previous events might be utilized. Such models should account for the statistical uncertainty representing the effect of limited data as well as possible model uncertainties originating from the use of the models for other cases than the case from which they were obtained.</p>
+<p>In many cases parameters which are known to have influence on the risks are simply not known in a given situation. This may e.g. be the case if the aggregated risk for all tunnels is assessed without accounting for detailed information about the geometry of the tunnels. In such cases it is important to account for the lack of knowledge, by representing the unknown tunnel geometry parameters as uncertain parameters in the formulation of the risk analysis models.</p>
+<p>Commonly the assessment of frequencies and consequences depend on models based on experience and engineering understanding. In such cases the uncertainty associated with the models should be described preferably in quantitative terms.</p>
+<p>In general the documentation of the knowledge should address all relevant uncertainties due to inherent natural variability as well as model uncertainties and statistical uncertainties. Independent on whether such uncertainties are neglected, assessed qualitatively or quantitatively, as a general rule; their treatment and modeling should always be stated clearly. Neglecting uncertainties in the risk assessment should always be justified by sensitivity studies.</p>
+<p>The quantitative representation of uncertainties in risk assessment, should take basis in the probability theory. The Bayesian statistics provides a basis for the consistent representation of uncertainties independent of their source and readily facilitates the joint consideration of purely subjectively assessed uncertainties, analytically assessed uncertainties and evidence as obtained through observations.</p>
+<p>All uncertainties should be represented in accordance with available data and/or unbiased estimated, based on experience and expertise.</p>
+<p>It is underlined that possible extreme consequences may be subject to considerable uncertainty, due to the fact that only very little information and experience is available on these. Indirect consequences due to the perception of adverse events by the public are poorly understood and the associated large uncertainty should be accounted for accordingly in the risk assessment.</p>
+<p>Generally, uncertainties are best represented through random variables with specified probability density functions and corresponding parameters. If two or more uncertainties can be assumed to be statistically or otherwise dependent, this dependency should be accounted for in the probabilistic modeling. Statistical dependency may be appropriately represented through correlation. Functional dependency or common cause dependency is appropriately represented through hierarchical probabilistic models. Only if the prevailing dependencies are correctly accounted for when assessing the risks for different objects and systems will it be possible to aggregate the risks correctly.</p>
+<p>As an example, consider the risks due to rock-fall events along a road. There may be several objects i.e. tunnels, bridges and galleries along the road, each separated by road way segments. The aggregated risk for the considered road would conveniently be assessed through the sum of the risks for all objects. However, in this case the risks for each of the objects depend on common factors including the average traffic volume per hour (over the day), the time of the event of rock-fall (day/night), the type of traffic and the consequences due to disruption, each of which might be associated with uncertainty. When assessing the total risk aggregated over all objects on the considered roadway, it is thus necessary to aggregate the risks conditional on the common uncertain parameters first and thereafter to integrate the aggregated risks over the uncertain common parameters. In principle this operation is quite simple, but in essence very important, as it will yield a significant effect on the aggregated risks. If risks are aggregated without consideration of common uncertain factors, the resulting total risk may be grossly at error.</p>
+</section>
+<section id="system-representation">
+<span id="ra2008-section-3-2"></span><h2>3.2 System representation<a class="headerlink" href="#system-representation" title="Link to this heading">#</a></h2>
+<p>The risk assessment of a given system is facilitated by considering the generic representation illustrated in <a class="reference internal" href="#ra2008-figure-4"><span class="std std-ref">Figure 4</span></a>. A main issues in the representation of systems is to facilitate and enhance the identification of scenarios of event which, starting from exposures such as loads and attacks by chemical substances, induce damages and failures and further onto consequences.</p>
+<figure id="ra2008-figure-4">
+<p><img alt="Figure 4. Generic system representation in risk assessments." src="../../_images/figure-04.png"/></p>
+<figcaption>Figure 4. Generic system representation in risk assessments.</figcaption>
+</figure>
+<p>The exposure to the system is represented as different exposure events acting on the constituents of the system. The constituents of the system can be considered as the systems first defense in regard to the exposures. The damages of the system caused by failures of the constituents are considered to be associated with direct consequences. Direct consequences may comprise different attributes of the system such as monetary losses, loss of lives, damages to qualities of the environment or just changed characteristics of the constituents.</p>
+<p>Direct consequences, are thus defined as all marginal (not considering loss of system functionality) consequences associated with damages or failures of the constituents of the system. Based on the combination of events of constituent failures, and the corresponding consequences indirect consequences may occur.</p>
+<p>Indirect consequences could be caused by e.g. the sum of monetary losses associated with the constituent failures as well as the loss of functionality of the system caused by the effect of one or more constituent failures. Indirect consequences, may thus be defined as any consequences associated with the loss of the functionalities of the system and by any specific characteristic of the joint state to the constituents and the direct consequences themselves. The indirect consequences in systems risk assessment play a major role, and the modeling of these should be given great emphasis. It should be noted that any constituent in a system can be modeled as a system itself. A system could be a road network with constituents being e.g. bridges, see <a class="reference internal" href="#ra2008-figure-5"><span class="std std-ref">Figure 5</span></a>, or an offshore oil and gas field with constituents being Floating Production, Storage and Offloading facilities (FPSO’s), see <a class="reference internal" href="#ra2008-figure-6"><span class="std std-ref">Figure 6</span></a>. The bridges and FPSO’s in turn could also be systems with constituents structural members. Depending on the level of detail in the risk assessment, i.e. the system definition, the exposure, constituents and consequences would be different.</p>
+<figure id="ra2008-figure-5">
+<p><img alt="Figure 5. Generic system characterizations for a roadway network and infrastructure object at different scales in terms of exposure, vulnerability and robustness." src="../../_images/figure-05.png"/></p>
+<figcaption>Figure 5. Generic system characterizations for a roadway network and infrastructure object at different scales in terms of exposure, vulnerability and robustness.</figcaption>
+</figure>
+<figure id="ra2008-figure-6">
+<p><img alt="Figure 6. Generic system characterizations for an offshore oil and gas production field and individual facilities at different scales in terms of exposure, vulnerability and robustness." src="../../_images/figure-06.png"/></p>
+<figcaption>Figure 6. Generic system characterizations for an offshore oil and gas production field and individual facilities at different scales in terms of exposure, vulnerability and robustness.</figcaption>
+</figure>
+<p>The vulnerability is related to the risk associated with the direct consequences and the lack of robustness is related to the degree the total risk are increased beyond the direct consequences.</p>
+<p>Indeed the system representation outlined in the above is only meaningful subject to a definition of what is considered to be exposures, constituents, direct and indirect consequences. However, in practical applications, the definition of these is generally given by the decision problem itself. If we want to determine the optimal allocation of the reliability of bridges in a road network in regard to e.g. earthquake events, the exposures would be the potential earthquake loads, the constituents would be the individual bridges, the direct consequences would be any consequence associated with the failure of any individual bridge in isolation and the indirect consequences would be loss of network functionalities plus consequences due to possible budget overruns caused by loss of individual bridges. Considering the design of a structure, the exposures would be any operational or environmental loads acting on the structures, including possible aggressive chemical environmental effects. The constituents would include the structural components, joints as well as passive and active protective and monitoring systems, which serve to provide the structure with a sufficient safety. Direct consequences would be material damages, loss of lives and damages to qualities of the environment caused by the damage or failure of any individual constituent. Indirect consequences would comprise the monetary consequences of the loss of the functionality provided by the structure, as well as additional material losses imposed on surrounding assets, including buildings, lifeline systems, environment and humans.</p>
+</section>
+<section id="exposures-and-hazards">
+<span id="ra2008-section-3-3"></span><h2>3.3 Exposures and hazards<a class="headerlink" href="#exposures-and-hazards" title="Link to this heading">#</a></h2>
+<p>The hazards or exposures acting on the constituents of a system are defined as all possible endogenous and exogenous effects with the potential to cause consequences. A probabilistic characterization of the exposure to a system requires a joint probabilistic model for all relevant effects relative to time and space.</p>
+<p>The characteristics of exposures are very different, depending on the individual exposure types. Exposures such as technical failures, accidents, explosions, rock-fall, and landslides are generally very suddenly occurring events. Floods and fire storms are generally more slowly evolving, while climatic changes and e.g. droughts are much slower. Exposures like human errors and malevolence, in turn, have their own patterns over time and space. In a risk management context, the characterization of exposures must take these differences into account in order to facilitate a realistic assessment of the possible consequences as well as to allow for the identification of possible relevant measures of risk prevention and loss reduction.</p>
+<p>For suddenly occurring events, usually the probability of the event itself is needed; e.g. the probability that a flood will occur or the probability of an earthquake. Part of the safety against such events is carried by the probability that they will not occur at all. However, more characteristics or indicators are needed to facilitate the modeling of the possible consequences of the event. Considering earthquakes, typically applied indicators are the Peak Ground Acceleration and the earthquake magnitude. Considering explosion events, e.g. the exceedance probability of the pressure at a given location would be of interest. These characteristics or indicators are useful, because knowledge about them provide basis for assessing the potential damages caused by the exposures, such as e.g. liquefaction of soil and damages to buildings caused by the dynamic excitation from the earthquake.</p>
+<p>It is important to note that in many risk assessments the joint representation of several exposures is required. This is e.g. the case when considering loads acting on structures where joint occurrences of live loads, dead loads and environmental loads together with chloride induced deterioration can constitute an important scenario for the assessment of the risks for a road way bridge.</p>
+</section>
+<section id="consequences">
+<span id="ra2008-section-3-4"></span><h2>3.4 Consequences<a class="headerlink" href="#consequences" title="Link to this heading">#</a></h2>
+<p>The consequences which potentially may be caused by different hazards are manifold and generally depend strongly on the specific characteristics of the hazard as well as the location where it occurs and the assets which are exposed. As a general rule, consequences should be assessed in regard to loss of lives and injuries, damages to the qualities of the environment and economic losses. Considering e.g. the assessment of the risks on a roadway network, the consequences illustrated in <a class="reference internal" href="#ra2008-figure-7"><span class="std std-ref">Figure 7</span></a> might be relevant.</p>
+<figure id="ra2008-figure-7">
+<p><img alt="Figure 7. Example of different consequences to consider in a risk assessment for a roadway network." src="../../_images/figure-07.png"/></p>
+<figcaption>Figure 7. Example of different consequences to consider in a risk assessment for a roadway network.</figcaption>
+</figure>
+<p>The risk assessment is greatly facilitated by considering the generic representation of the development of consequences shown in <a class="reference internal" href="#ra2008-figure-4"><span class="std std-ref">Figure 4</span></a>. However, in the assessment of consequences, it is useful to consider a further differentiation as illustrated in <a class="reference internal" href="#ra2008-figure-8"><span class="std std-ref">Figure 8</span></a>. From <a class="reference internal" href="#ra2008-figure-8"><span class="std std-ref">Figure 8</span></a> is seen that two types of indirect consequences are differentiated, namely the indirect consequences due to physical system changes and the indirect consequences caused by the societal or public perception of these. The reason for this differentiation is to indicate how risk management may efficiently be supported by risk communication. The better and more targeted risk communication is undertaken before, during and after events of natural hazards, the smaller the consequences caused by perception will be. Often traditional risk assessments focus on the assessment of direct consequences and do not attempt to model the indirect consequences by rigorous modeling. Instead, indirect consequences are included by somehow amplifying the direct consequences by means of a risk aversion function, the characteristics of which generally are assessed subjectively.</p>
+<p>Indeed it is a little puzzling that the often more important contribution to consequences is commonly modeled by means of the simplest possible approximation. The approach suggested here, where consequences are differentiated into different components is meant to circumvent excessively simplistic modeling, bringing the indirect consequences into focus and indicating the different ways they might be controlled.</p>
+<p>A range of different terms to characterize the effect of hazards are applied across different disciplines. Among these, vulnerability, resilience, robustness and adaptive capacity are used most frequently. Vulnerability is commonly related to risk over time in terms of expected potential future losses considering all possible events which may lead to such. Robustness is often applied to characterize the response of a system to given changes in the system state variables. Different interpretations of robustness are available in the different disciplines. In structural engineering, a robust structural system is understood as a structure which will not loose functionality at a rate or extent disproportional to the cause of the change in the state variables. The term resilience in accordance with its Latin origin may be associated with a systems elastic ability to return to its original state after some perturbation. Usually, in risk assessment resilience, is applied in a qualitative manner as a descriptor of a considered system’s or society’s ability to rehabilitate its main functions, e.g. such as e.g. livelihood, however, it must be appreciated that the considered system may indeed be very dissipative; changes in its state variables may be associated with significant losses. The same or similar meanings are typically associated with the term adaptive capacity which serves as a measure of the ability of a given system to adapt to new situations and thereby maintain and or even improve functionality. In the context of risk assessment the meaning of robustness is generally very close to the meaning of resilience and adaptive capacity.</p>
+<figure id="ra2008-figure-8">
+<p><img alt="Figure 8. Representation of the mechanism generating consequences." src="../../_images/figure-08.png"/></p>
+<figcaption>Figure 8. Representation of the mechanism generating consequences.</figcaption>
+</figure>
+<p>In view of the different and somewhat imprecise use of different terms for the characterization of systems in regard to how exposures may result in consequences of various degrees of severity, the terms vulnerability and robustness are defined more stringently in the following. In <a class="reference internal" href="04-risk-assessment.html#ra2008-section-4"><span class="std std-ref">Chapter 4</span></a> mathematical expressions are to be provided for the quantitative assessment of both vulnerability and robustness.</p>
+<section id="vulnerability">
+<span id="ra2008-section-3-4-1"></span><h3>3.4.1 Vulnerability<a class="headerlink" href="#vulnerability" title="Link to this heading">#</a></h3>
+<p><em>The vulnerability of a system is defined as the ratio between the risks due to direct consequences and the total value of the considered asset or portfolio of assets considering all relevant exposures and a specified time frame.</em> Conditional vulnerabilities may be defined through the vulnerability conditional on given exposures.</p>
+</section>
+<section id="robustness">
+<span id="ra2008-section-3-4-2"></span><h3>3.4.2 Robustness<a class="headerlink" href="#robustness" title="Link to this heading">#</a></h3>
+<p><em>The robustness of a system is defined as the ratio between the direct risks and the total risks, (total risks is equal to the sum of direct and indirect risks), for a specified time frame and considering all relevant exposure events and all relevant damage states for the constituents of the system.</em> A conditional robustness may be defined through the robustness conditional on a given exposure and or a given damage state.</p>
+<!-- source-text-end -->
+</section>
+</section>
+</section>
+<script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./publications\2008-06-risk-assessment-in-engineering"
+        },
+        predefinedOutput: true
+    }
+    </script>
+<script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="02-framework-for-risk-assessment.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">2 Framework for risk assessment</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="04-risk-assessment.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">4 Risk Assessment</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item"><div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Document contents
+  </div>
+  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="document-contents pst-show_toc_level nav section-nav flex-column"><li class="toc-h1 nav-item toc-entry"><a class="nav-link" href="index.html">Risk Assessment in Engineering</a><ul class="pst-show_toc_level nav section-nav flex-column"><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="index.html#dedication">Dedication</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="index.html#preface">Preface</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="index.html#contents">Contents</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="index.html#source-and-citation">Source and citation</a></li></ul></li><li class="toc-h1 nav-item toc-entry"><a class="nav-link" href="01-introduction.html">1 Introduction</a></li><li class="toc-h1 nav-item toc-entry"><a class="nav-link" href="02-framework-for-risk-assessment.html">2 Framework for risk assessment</a><ul class="pst-show_toc_level nav section-nav flex-column"><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="02-framework-for-risk-assessment.html#engineering-risk-assessment-and-decision-making">2.1 Engineering Risk assessment and decision making</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="02-framework-for-risk-assessment.html#decisions-and-decision-maker">2.2 Decisions and decision maker</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="02-framework-for-risk-assessment.html#attributes-of-decision-outcomes">2.3 Attributes of decision outcomes</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="02-framework-for-risk-assessment.html#preferences-among-attributes-utility">2.4 Preferences among attributes - utility</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="02-framework-for-risk-assessment.html#constraints-on-decision-making">2.5 Constraints on decision making</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="02-framework-for-risk-assessment.html#feasibility-and-optimality">2.6 Feasibility and optimality</a></li></ul></li><li class="toc-h1 nav-item toc-entry"><a aria-current="page" class="document-current-page nav-link" href="#">3 System modeling</a><ul class="pst-show_toc_level nav section-nav flex-column"><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="#knowledge-and-uncertainty">3.1 Knowledge and uncertainty</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="#system-representation">3.2 System representation</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="#exposures-and-hazards">3.3 Exposures and hazards</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="#consequences">3.4 Consequences</a><ul class="pst-show_toc_level nav section-nav flex-column"><li class="toc-h3 nav-item toc-entry"><a class="nav-link" href="#vulnerability">3.4.1 Vulnerability</a></li><li class="toc-h3 nav-item toc-entry"><a class="nav-link" href="#robustness">3.4.2 Robustness</a></li></ul></li></ul></li><li class="toc-h1 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html">4 Risk Assessment</a><ul class="pst-show_toc_level nav section-nav flex-column"><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#analysis-and-quantification-of-systems-risk">4.1 Analysis and quantification of systems risk</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#indicators-of-risk">4.2 Indicators of risk</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#comparison-of-decision-alternatives">4.3 Comparison of decision alternatives</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#risk-perception">4.4 Risk perception</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#risk-reduction-measures">4.5 Risk reduction measures</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#acceptance-of-risk">4.6 Acceptance of risk</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#sustainable-discounting">4.7 Sustainable discounting</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#aggregation-and-portfolio-loss-assessment">4.8 Aggregation and portfolio loss assessment</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#risk-transfer">4.9 Risk transfer</a></li><li class="toc-h2 nav-item toc-entry"><a class="nav-link" href="04-risk-assessment.html#risk-communication">4.10 Risk communication</a></li></ul></li></ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Joint Committee on Structural Safety
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2026.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../../_static/scripts/bootstrap.js?digest=55c26ed414f5f8a31ebb"></script>
+<script defer src="../../_static/scripts/pydata-sphinx-theme.js?digest=55c26ed414f5f8a31ebb"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

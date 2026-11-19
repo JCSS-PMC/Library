@@ -1,0 +1,27 @@
+/* Use the PMC theme's fonts and colour variables for catalogue navigation. */
+.library-context { margin: 1rem 1rem 0; font-size: 0.9rem; }
+.library-context ol { display: flex; flex-wrap: wrap; gap: 0.35rem; list-style: none; padding: 0; margin: 0 0 0.5rem; }
+.library-context li + li::before { content: "/"; margin-right: 0.35rem; color: var(--pst-color-text-muted); }
+.library-return { display: inline-block; margin-bottom: 0.5rem; }
+.library-original:focus-visible { outline: 2px solid var(--pst-color-primary); outline-offset: 3px; }
+.library-theme-switch [hidden] { display: none; }
+.library-work { padding: 0.8rem 0; border-bottom: 1px solid var(--pst-color-border); }
+.library-work p { margin-bottom: 0.65rem; }
+a.reference.download code { font: inherit; background: none; border: 0; padding: 0; color: inherit; white-space: normal; overflow-wrap: anywhere; }
+.library-context a, #library-search-list a { overflow-wrap: anywhere; }
+.library-context a:focus-visible, .library-work a:focus-visible, #library-search-list a:focus-visible { outline: 2px solid var(--pst-color-primary); outline-offset: 3px; }
+#library-search-list { padding-left: 1.5rem; }
+#library-search-list li { margin-bottom: 1.5rem; }
+#library-search-list p { margin: 0.35rem 0; }
+#library-search-list .library-search-details { color: var(--pst-color-text-muted); font-size: 0.9rem; }
+/* Metadata supports the title and reading/download actions. */
+.library-metadata { color: var(--pst-color-text-muted); margin-bottom: 0.7rem; }
+.library-metadata p { margin-bottom: 0; }
+.library-file-details { color: var(--pst-color-text-muted); font-size: 0.9rem; }
+/* Keep heading IDs and section URLs, without paragraph-symbol controls. */
+.library-permalink, a.headerlink { display: none; }
+.library-secondary { border-left: 2px solid var(--pst-color-border); padding-left: 1rem; margin: 1rem 0; font-size: 0.95rem; }
+.library-secondary > p { margin-bottom: 0.5rem; }
+.library-supporting h4 { font-size: 1.15rem; }
+.library-supporting { border-left: 2px solid var(--pst-color-border); padding-left: 1rem; }
+.library-supporting .library-work h4 { margin-top: 0.25rem; }

@@ -1,0 +1,18 @@
+<!-- source-text-start -->
+
+(ra2008-section-1)=
+# 1 Introduction
+
+The present document constitutes the Joint Committee on Structural Safety (JCSS) *Risk Assessment in Engineering, Principles, System Representation and Risk Criteria*. Risk assessment is in the following understood as a process of decision making based on risks. The developed guideline is a consensus between the members of the JCSS in regard to what can be considered as a best practice for risk based decision making in the field of engineering.
+
+The guideline is addressed to decision makers and professionals responsible for or involved in establishing decision support. The purpose of the document is to outline the basic premises for the utilization of risk assessment in establishing rational decisions for the benefit of and in consistency with the preferences of society and other stakeholders. In this way the present document provides the general philosophy to be followed and points to a best practice in the treatment of the many aspects of this complex problem.
+
+It is underlined that the guideline contains a framework for risk based decision making which is both generic, i.e. in principle context independent, but also represents an integral approach. This implies that explicit consideration is given to the interaction between all relevant agents, i.e. technical systems, nature, humans and organizations in the assessment of the risks associated with the system considered. Only when an integral approach is taken to risk assessment it can be ensured that the significant risk contributions originating from the interactions between the different agents are accounted for. In fact any risk assessment not accounting for this interaction must in general be seen as subject to crude simplifications whereby the transparency of the results of the assessment is severely limited. It is advocated to take a holistic perspective to risk assessments also in regard to time. Risk assessments should consider all phases of the life of a technical system from the early concept phases to the end of the service life including decommissioning. In addition also intergenerational aspects of risks and decision making must be considered in the context of sustainable societal developments.
+
+The guideline provides decision support for risk and safety management at both *strategic*, *normative* and *operational* levels. Decision makers at strategic and normative levels are normally responsible for the risks associated with not only one asset, i.e. structures, infra-structure networks and activities, but for a portfolio of assets. If risk assessments are not performed consistently for the individual components of the asset it is not possible to assess the portfolio risk. Furthermore, and more importantly it is then also not possible to device the rational strategies in terms of resource allocation and actions of risk control and reduction.
+
+The approach advocated in the present document is new in the sense that it emphasizes the need for a generic, scientifically based methodology with a holistic perspective and furthermore describes the principles on how to do it. The approach is largely philosophical and generally methodological and does not depend on the latest development in e.g. numerical methods and specific techniques for specific technical investigations. Thereby it is ensured that future inevitable technological improvements will not result in the present document becoming obsolete.
+
+Finally it should be noted that the focus of the present document is engineering risk assessment and decision support. However, the principles are general and can be applied in all areas.
+
+<!-- source-text-end -->
